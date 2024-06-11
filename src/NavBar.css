@@ -1,0 +1,37 @@
+
+.navbar{
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 8vh;
+}
+.signup_btn{
+    background-color: #00798A;
+    color: white;
+}
+.signup_btn:hover{
+    background-color: #008FA3;
+    color: white;
+}
+.login_btn{
+    color: black;
+    text-decoration: none;
+}
+.login_btn:hover{
+    color: #00798A;
+}
+.form_search{
+    height: 4.5vh;
+}
+.search_sec_1{
+    
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.search_sec_2{
+    border-radius: 0;
+}
+.search_btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 1%;
+}
