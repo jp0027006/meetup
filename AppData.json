@@ -1,0 +1,69 @@
+{
+    "UpcomingEvent": 
+    [   
+        {
+            "UE_Photo": "EvenNear_1.png",
+            "UE_Name": "Chennai Tisax Automotive Cybersecurity M - Meet and Greet",
+            "UE_HostedBy": "Hosted by: Chennai Tisax Automotive Cybersecurity Meetup Group",
+            "UE_Time&Date": "SAT, JUN 15 · 11:00 AM IST",
+            "UE_Visitor": "14 going",
+            "UE_Prize": "Free"
+        },
+        {
+            "UE_Photo": "EvenNear_2.png",
+            "UE_Name": "Mastering Production Challenges in RAG: Hands-on $GenAI$ Workshop",
+            "UE_HostedBy": "Hosted by: Microsoft Azure User Group - Chennai",
+            "UE_Time&Date": "SAT, JUN 22 · 9:00 AM IST",
+            "UE_Visitor": "125 going",
+            "UE_Prize": "Free"
+        },
+        {
+            "UE_Photo": "EvenNear_3.png",
+            "UE_Name": "Season of AI",
+            "UE_HostedBy": "Hosted by: XMonkeys360",
+            "UE_Time&Date": "SAT, JUL 6 · 10:00 AM IST",
+            "UE_Visitor": "133 going",
+            "UE_Prize": "Free"
+        },
+        {
+            "UE_Photo": "EvenNear_4.png",
+            "UE_Name": "Atlassian Community Conference: Team '24 @ Chennai on June 22nd, 2024",
+            "UE_HostedBy": "Hosted by: Chennai Atlassian Community Events",
+            "UE_Time&Date": "SAT, JUN 22 · 10:00 AM IST",
+            "UE_Visitor": "136 going",
+            "UE_Prize": "Free"
+        },
+        {
+            "UE_Photo": "EvenNear_5.png",
+            "UE_Name": "MCKS Achieving Oneness with the Higher Soul",
+            "UE_HostedBy": "Hosted by: Newage Lightworkers Group Chennai",
+            "UE_Time&Date": "SAT, JUN 29 · 9:00 AM IST",
+            "UE_Visitor": "1 going",
+            "UE_Prize": "From ₹7000.00"
+        },
+        {
+            "UE_Photo": "EvenNear_6.png",
+            "UE_Name": "Demystifying Data Privacy with Cutting-Edge Tools",
+            "UE_HostedBy": "Hosted by: DEVDAY Technical Meetup - Chennai",
+            "UE_Time&Date": "THU, JUN 13 · 6:00 PM IST",
+            "UE_Visitor": "25 going",
+            "UE_Prize": "Free"
+        },
+        {
+            "UE_Photo": "EvenNear_7.png",
+            "UE_Name": "Global DevOps Experience 2024",
+            "UE_HostedBy": "Hosted by: Azure Developer Community Tamilnadu",
+            "UE_Time&Date": "SAT, JUN 15 · 10:00 AM IST",
+            "UE_Visitor": "100 going",
+            "UE_Prize": "Free"
+        },
+        {
+            "UE_Photo": "EvenNear_8.png",
+            "UE_Name": "Public Speaking Sessions",
+            "UE_HostedBy": "Hosted by: Toastmasters Club - Chennai",
+            "UE_Time&Date": "WED, JUN 12 · 7:00 AM IST",
+            "UE_Visitor": "2 going",
+            "UE_Prize": "From ₹200.00"
+        }
+    ]
+}
