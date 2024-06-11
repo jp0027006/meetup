@@ -1,7 +1,7 @@
 import React from "react";
 import './NavBar.css';
-import search_icon from './images/search_icon.png';
-import logo from'./images/meetup_logo.png';
+import search_icon from '../images/search_icon.png';
+import logo from'../images/meetup_logo.png';
 
 function NavBar() {
     return (
@@ -14,7 +14,7 @@ function NavBar() {
                     <form className="d-flex me-auto form_search" role="search" style={{width: '38%'}}>
                         <input className="form-control search_sec_1 " type="search" placeholder="Search events" aria-label="Search" style={{width: '40%'}}/>
                         <input className="form-control search_sec_2" type="search" placeholder="Ahmedabad, IN" aria-label="Search"  style={{width: '40%'}}/>
-                        <button className="btn btn-danger search_btn" type="submit" style={{width: '6%', height: '4.5vh' }}>
+                        <button className="btn btn-danger search_btn" type="submit" style={{width: '6%', height: '4.75vh' }}>
                             <img src={search_icon} alt="icon_not_found" height="100%" width="100%"/>
                         </button>
                     </form>

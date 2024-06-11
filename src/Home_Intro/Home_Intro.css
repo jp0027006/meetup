@@ -1,0 +1,23 @@
+.Home_Intro{
+    display: flex;
+}
+.Home_Intro_Sec_1{
+    width: 55%;
+    padding-right: 5%;
+}
+.Home_Intro_Sec_1 > h1{
+    font-size: 2.8rem;
+    font-weight: bolder;
+}
+.Home_Intro_Sec_2{
+    width: 40%;
+}
+.join_btn{
+    background-color: #00798A;
+    font-size: 1.05rem;
+    color: white;
+}
+.join_btn:hover{
+    background-color: #008FA3;
+    color: white;
+}
