@@ -8,7 +8,7 @@ function NavBar() {
         <div className="NavBar">
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <a class="navbar-brand me-5" href="#">
+                    <a className="navbar-brand me-5" href="#">
                         <img src={logo} alt="Bootstrap" width="100" height="100"/>
                     </a>
                     <form className="d-flex me-auto form_search" role="search" style={{width: '38%'}}>

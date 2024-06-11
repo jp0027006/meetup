@@ -1,9 +1,32 @@
 .event_module{
-    height: 40vh;
-    background-color: red;
+    height: initial;
     width: 23%;
     margin-top: 2vh;
+    margin-bottom: 5rem;
     border-radius: 10px;
 }
 .UE_images{
+    height: 9rem;
+    background-color: blue;
+}
+img{
+    border-radius: 10px;
+}
+.UE_name{
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+.UE_hostby{
+    margin-top: 0.5rem;
+    color: #717171;
+    margin-bottom: 0.5rem;
+}
+.UE_time_date{
+}
+.vis_price_con{
+    margin-top: 0.75rem;
+    display: flex;
+}
+.UE_visitors{
+    margin-right: 3rem;
 }

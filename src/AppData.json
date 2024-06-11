@@ -1,9 +1,8 @@
 {
-    "UpcomingEvent": 
-    [   
+    "UpcomingEvent": [   
         {
             "id": "1",
-            "UE_Photo": "EvenNear_1.png",
+            "UE_Photo": "Ahmedabad_Team24.png",
             "UE_Name": "Ahmedabad Team'24: SAVE THE DATE",
             "UE_HostedBy": "Hosted by: Ahmedabad Atlassian Community",
             "UE_Time_Date": "SUN, JUN 16 · 10:30 AM IST",
@@ -12,66 +11,66 @@
         },
         {
             "id": "2",
-            "UE_Photo": "EvenNear_2.png",
+            "UE_Photo": "Designing_Scalable_Architecture.png",
             "UE_Name": "Designing Scalable Architecture for 50 Billion Daily Requests",
-            "UE_HostedBy": "Hosted by: Microsoft Azure User Group - Chennai",
-            "UE_Time_Date": "SAT, JUN 22 · 9:00 AM IST",
-            "UE_Visitor": "125 going",
+            "UE_HostedBy": "Hosted by: IQM Meetup - Ahmedabad",
+            "UE_Time_Date": "SAT, JUN 22 · 9:30 AM IST",
+            "UE_Visitor": "18 going",
             "UE_price": "Free"
         },
         {
             "id": "3",
-            "UE_Photo": "EvenNear_3.png",
-            "UE_Name": "Season of AI",
-            "UE_HostedBy": "Hosted by: XMonkeys360",
-            "UE_Time_Date": "SAT, JUL 6 · 10:00 AM IST",
-            "UE_Visitor": "133 going",
+            "UE_Photo": "Meditation.png",
+            "UE_Name": "Meditation: Flowering of your BEing",
+            "UE_HostedBy": "Hosted by: Anannd Utsav: Center for Holistic Wellness",
+            "UE_Time_Date": "SUN, JUN 16 · 5:30 PM IST",
+            "UE_Visitor": "20 going",
             "UE_price": "Free"
         },
         {
             "id": "4",
-            "UE_Photo": "EvenNear_4.png",
-            "UE_Name": "Atlassian Community Conference: Team '24 @ Chennai on June 22nd, 2024",
+            "UE_Photo": "AWS_Community_Day.png",
+            "UE_Name": "AWS Community Day GEN AI Edition",
             "UE_HostedBy": "Hosted by: Chennai Atlassian Community Events",
-            "UE_Time_Date": "SAT, JUN 22 · 10:00 AM IST",
-            "UE_Visitor": "136 going",
+            "UE_Time_Date": "SAT, JUN 29 · 8:30 AM IST",
+            "UE_Visitor": "90 going",
             "UE_price": "Free"
         },
         {
             "id": "5",
-            "UE_Photo": "EvenNear_5.png",
-            "UE_Name": "MCKS Achieving Oneness with the Higher Soul",
-            "UE_HostedBy": "Hosted by: Newage Lightworkers Group Chennai",
-            "UE_Time_Date": "SAT, JUN 29 · 9:00 AM IST",
-            "UE_Visitor": "1 going",
-            "UE_price": "From ₹7000.00"
+            "UE_Photo": "Swift_SwiftUI.png",
+            "UE_Name": "Swift, SwiftUI & Environment",
+            "UE_HostedBy": "Hosted by: Apple Developers Club iOS | Swift | macOS | watchOS",
+            "UE_Time_Date": "SAT, JUL 6 · 11:00 AM IST",
+            "UE_Visitor": "20 going",
+            "UE_price": "Free"
         },
         {
             "id": "6",
-            "UE_Photo": "EvenNear_6.png",
-            "UE_Name": "Demystifying Data Privacy with Cutting-Edge Tools",
-            "UE_HostedBy": "Hosted by: DEVDAY Technical Meetup - Chennai",
-            "UE_Time_Date": "THU, JUN 13 · 6:00 PM IST",
-            "UE_Visitor": "25 going",
+            "UE_Photo": "Umeed_Foundation_Education_Meetup.png",
+            "UE_Name": "Umeed Foundation Education Meetup",
+            "UE_HostedBy": "Hosted by: Umeed Foundation",
+            "UE_Time_Date": "SUN, JUN 16 · 10:30 AM IST",
+            "UE_Visitor": "7 going",
             "UE_price": "Free"
         },
         {
             "id": "7",
-            "UE_Photo": "EvenNear_7.png",
-            "UE_Name": "Global DevOps Experience 2024",
-            "UE_HostedBy": "Hosted by: Azure Developer Community Tamilnadu",
-            "UE_Time_Date": "SAT, JUN 15 · 10:00 AM IST",
-            "UE_Visitor": "100 going",
+            "UE_Photo": "Ahmedabad_Startup_Meetup.png",
+            "UE_Name": "Ahmedabad Startup Meetup",
+            "UE_HostedBy": "Hosted by: eChai Ahmedabad Startup Network",
+            "UE_Time_Date": "SAT, JUN 15 · 6:30 PM IST",
+            "UE_Visitor": "15 going",
             "UE_price": "Free"
         },
         {
             "id": "8",
-            "UE_Photo": "EvenNear_8.png",
-            "UE_Name": "Public Speaking Sessions",
-            "UE_HostedBy": "Hosted by: Toastmasters Club - Chennai",
-            "UE_Time_Date": "WED, JUN 12 · 7:00 AM IST",
-            "UE_Visitor": "2 going",
-            "UE_price": "From ₹200.00"
+            "UE_Photo": "Azure_AI_Day.png",
+            "UE_Name": "Azure AI Day - Ahmedabad",
+            "UE_HostedBy": "Hosted by: M365 Ahmedabad User Group",
+            "UE_Time_Date": "SAT, JUL 13 · 10:30 AM IST",
+            "UE_Visitor": "65 going",
+            "UE_price": "Free"
         }
     ]
 }
