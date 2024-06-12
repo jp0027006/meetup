@@ -1,5 +1,5 @@
 {
-    "UpcomingEvent": [   
+    "NearEvent": [   
         {
             "id": "1",
             "UE_Photo": "Ahmedabad_Team24.png",
@@ -71,6 +71,44 @@
             "UE_Time_Date": "SAT, JUL 13 · 10:30 AM IST",
             "UE_Visitor": "65 going",
             "UE_price": "Free"
+        }
+    ],
+    "UpcomingOnlineEvents": [   
+        {
+            "id": "1",
+            "UE_Photo": "Ahmedabad_Team24.png",
+            "UE_Name": "WSGI - What The Heck Is Going On!",
+            "UE_HostedBy": "Hosted by: Software Craftspeople Community",
+            "UE_Time_Date": "FRI, JUN 14 · 3:00 PM IST",
+            "UE_Visitor": "5 going",
+            "UE_price": "Free"
+        },
+        {
+            "id": "2",
+            "UE_Photo": "Designing_Scalable_Architecture.png",
+            "UE_Name": "PGD-AI Study Circle - Machine Learning Using Python (Sessions 1-9)",
+            "UE_HostedBy": "Hosted by: Emerging Open Tech Forum",
+            "UE_Time_Date": "FRI, JUN 14 · 8:00 PM IST",
+            "UE_Visitor": "9 going",
+            "UE_price": "Free"
+        },
+        {
+            "id": "3",
+            "UE_Photo": "Meditation.png",
+            "UE_Name": "Daily Online workout, weight managements and fitness session (Evening Batch)",
+            "UE_HostedBy": "Hosted by: Ahmedabad Meetups! 🥳",
+            "UE_Time_Date": "THU, JUN 13 · 6:30 PM IST",
+            "UE_Visitor": "7 going",
+            "UE_price": "Free"
+        },
+        {
+            "id": "4",
+            "UE_Photo": "AWS_Community_Day.png",
+            "UE_Name": "Osho Meditation Intensive- 365",
+            "UE_HostedBy": "Hosted by: Anannd Utsav: Center for Holistic Wellness",
+            "UE_Time_Date": "FRI, JUN 14 · 6:30 AM IST",
+            "UE_Visitor": "2 going",
+            "UE_price": "From ₹500.00"
         }
     ]
 }

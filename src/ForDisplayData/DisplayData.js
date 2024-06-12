@@ -1,8 +1,8 @@
 import React from 'react';
-import './Events_Near_Module.css';
+import './DisplayData.css';
 import UE_Temp_Photo from '../images/upcoming_event_photos/AWS_Community_Day.png'
 
-const Events_Near_Module = ({ event }) => {
+const DisplayData = ({ event }) => {
     if (!event) {
         return null;
     }
@@ -23,4 +23,4 @@ const Events_Near_Module = ({ event }) => {
     );
 };
 
-export default Events_Near_Module;
+export default DisplayData;
