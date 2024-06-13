@@ -8,13 +8,13 @@ function NavBar() {
         <div className="NavBar">
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <a className="navbar-brand me-5" href="#">
+                    <a className="navbar-brand me-4" href="#">
                         <img src={logo} alt="Bootstrap" width="100" height="100"/>
                     </a>
-                    <form className="d-flex me-auto form_search" role="search" style={{width: '38%'}}>
-                        <input className="form-control search_sec_1 " type="search" placeholder="Search events" aria-label="Search" style={{width: '40%'}}/>
-                        <input className="form-control search_sec_2" type="search" placeholder="Ahmedabad, IN" aria-label="Search"  style={{width: '40%'}}/>
-                        <button className="btn btn-danger search_btn" type="submit" style={{width: '6%', height: '4.75vh' }}>
+                    <form className="d-flex me-auto form_search" role="search">
+                        <input className="form-control search_sec_1 " type="search" placeholder="Search events" aria-label="Search"/>
+                        <input className="form-control search_sec_2" type="search" placeholder="Ahmedabad, IN" aria-label="Search"/>
+                        <button className="btn search_btn" type="submit">
                             <img src={search_icon} alt="icon_not_found" height="100%" width="100%"/>
                         </button>
                     </form>

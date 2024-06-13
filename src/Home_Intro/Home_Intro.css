@@ -6,7 +6,7 @@
     padding-right: 5%;
 }
 .Home_Intro_Sec_1 > h1{
-    font-size: 2.8rem;
+    font-size: 2.7rem;
     font-weight: bolder;
 }
 .Home_Intro_Sec_2{
@@ -16,6 +16,7 @@
     background-color: #00798A;
     font-size: 1.05rem;
     color: white;
+    padding: auto 2%;
 }
 .join_btn:hover{
     background-color: #008FA3;

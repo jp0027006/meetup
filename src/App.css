@@ -1,5 +1,4 @@
 .parent_component{
     width: 75rem;
-    margin: 0 auto;
-    margin-top: 10vh;
+    margin: 10vh auto 10vh auto;
 }
