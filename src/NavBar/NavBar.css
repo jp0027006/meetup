@@ -4,6 +4,7 @@
     height: 4.5rem;
 }
 .signup_btn{
+    font-weight: bold;
     background-color: #00798A;
     color: white;
 }
@@ -12,6 +13,7 @@
     color: white;
 }
 .login_btn{
+    font-weight: 500;
     color: black;
     text-decoration: none;
 }
@@ -25,8 +27,36 @@
 }
 .search_sec_1{
     border-top-right-radius: 0;
+    padding: 0;
     border-bottom-right-radius: 0;
     width: 50%;
+    display: flex;
+}
+.search_sec_1:hover{
+    border: 1px black solid;
+}
+
+.search_sec_1_part1{
+    width: 12%;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+.search_sec_1_part1> img {
+    opacity: 0.6;
+}
+.search_sec_1_part2{
+    width: 85%;
+    height: 2.6rem;
+}
+.search_filed{
+    margin-top: 0.05rem;
+    height: 2.4rem;
+    width: 100%;
+    border: 0 transparent solid;
+}
+.search_filed:focus{
+    border: 0 transparent solid;
+    outline: none;
 }
 .search_sec_2{
     border-radius: 0;
@@ -38,8 +68,28 @@
 .search_btn{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    padding: 1% 2% 2% 2%;
+    padding: 0.5% 2% 2.5% 2%;
     width: 7.25%;
     background-color: #F65858;
+}
+.search_btn:hover{
+    background-color: #F65858;
+}
 
+.launguage_btn{
+    padding: 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 2.5rem;
+    text-decoration: none;
+}
+.launguage_btn > img{
+    margin-bottom: 3%;
+    padding-right: 0.25rem;
+}
+.launguage_btn:hover{
+    color: black;
 }

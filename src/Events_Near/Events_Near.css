@@ -25,6 +25,13 @@
     height: 2rem;
     width: 2rem;
 } */
+ .event_near_btn_img{
+    display: flex;
+    justify-content: center;
+ }
+ .event_near_btn_img > img {
+    color: #008FA3;
+ }
 h2{
     font-weight: bolder;
     display: flex;

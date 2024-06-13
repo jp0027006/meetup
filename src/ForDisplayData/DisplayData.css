@@ -17,16 +17,21 @@ img{
     font-weight: bold;
 }
 .UE_hostby{
-    margin-top: 0.5rem;
+    margin-top: 0.25rem;
     color: #717171;
-    margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 .UE_time_date{
+    margin-top: 0rem;
 }
 .vis_price_con{
-    margin-top: 0.75rem;
+    margin: 0;
     display: flex;
 }
 .UE_visitors{
-    margin-right: 3rem;
+    margin: 0;
+    margin-right: 2rem;
+}
+.UE_price{
+    margin: 0;
 }
