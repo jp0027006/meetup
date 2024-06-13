@@ -2,7 +2,7 @@ import "./Categories.css";
 
 function Categories() {
   return (
-    <div className="Categories">
+    <div className="Categories mt-5">
       <h2>Explore top categories</h2>
       <div className="Categories-main">
         <a className="category_sec" href="#">
