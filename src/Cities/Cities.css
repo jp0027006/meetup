@@ -1,0 +1,48 @@
+div > p {
+  --tw-text-opacity: 1;
+  color: rgb(112 112 112 / var(--tw-text-opacity));
+}
+.Cities-main {
+  column-gap: 3.5%;
+}
+.cities_sec:hover {
+  text-decoration: underline !important;
+}
+a > h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+a > img {
+  border-radius: 9999px;
+}
+a > img:hover {
+  opacity: 0.8;
+}
+.row {
+  gap: 3%;
+}
+.col {
+  background-color: rgba(151, 202, 209, 0.08);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  padding-top: 2rem;
+  padding-right: 7rem;
+}
+.col:hover{
+    background-color: rgba(151, 202, 209, .12) !important;
+}
+.detail {
+  flex: 1 0 0%;
+  margin-left: -5%;
+}
+h5 {
+  font-size: 20px;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+span {
+  --tw-text-opacity: 1;
+  color: rgb(0 121 138 / var(--tw-text-opacity));
+  font-weight: 500;
+}
