@@ -7,7 +7,7 @@ function UpcomingOnlineEvents()
     return(
         <div className="UpcomingOnlineEvents">
             <div className="event_header">
-                <h2>Upcoming online events<button className="btn event_near_btn">Ahmedabad, IN <div className="event_near_btn_img">  </div> </button> </h2>
+                <h2>Upcoming online events</h2>
                 <a href="#" className="see_all_event_link"> See all events </a>
             </div>
             <div className="event_main_sec">
