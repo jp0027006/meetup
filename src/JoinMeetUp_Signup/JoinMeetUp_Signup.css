@@ -1,0 +1,35 @@
+.JoinMeetUp_Signup{
+    height: 15rem;
+    width: 100%;
+    background-color: #f7fbfb;
+    display: flex;
+}
+.JoinMeetUp_Signup_part1{
+    padding: 2.30rem 0% 2.30rem 5%;
+    width: 62%;
+}
+.JoinMeetUp_Signup_part2{
+    padding: 1.30rem 5% 1.30rem 5%;
+    width: 38%;
+}
+h3{
+    font-weight: bold;
+}
+p{
+    margin-top: 1rem;
+    font-size: 1.08rem;
+}
+.Signup_btn{
+    border-radius: 8px;
+    height: 2.5rem;
+    font-weight: 500;
+    width: 12rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: #e32359;
+    border-color: transparent;
+}
+.Signup_btn:hover{
+    background-color: #e63a6a;
+}
