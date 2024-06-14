@@ -4,6 +4,13 @@
     margin-top: 2vh;
     margin-bottom: 5rem;
     border-radius: 10px;
+    cursor: pointer;
+}
+.event_module:hover .UE_images{
+    opacity: 0.9;
+}
+.event_module:hover .UE_name{
+    text-decoration: underline;
 }
 .UE_images{
     height: 9rem;
@@ -17,16 +24,42 @@ img{
     font-weight: bold;
 }
 .UE_hostby{
-    margin-top: 0.5rem;
+    margin-top: 0.25rem;
     color: #717171;
-    margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 .UE_time_date{
-}
-.vis_price_con{
-    margin-top: 0.75rem;
+    height: 1rem;
     display: flex;
 }
+.UE_time_date_1 > img{
+    margin-top: -1.55vh;
+    border-radius: 0px;
+    padding: 0;
+}
+.UE_time_date_2{
+    padding-left: 3%;
+    display: flex;
+    align-items: center;
+}
+.vis_price_con{
+    margin: 0;
+    display: flex;
+    height: 1.75rem;
+}
+.UE_visitors > img , .UE_price > img {
+    margin-top: 1px;
+    padding: 0;
+    padding-right: 0.35rem;
+}
 .UE_visitors{
-    margin-right: 3rem;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    margin-right: 1.5rem;
+}
+.UE_price{
+    margin: 0;
+    height: 100%;
+    display: flex;
 }
