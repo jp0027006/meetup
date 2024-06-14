@@ -15,23 +15,23 @@ function Cities() {
       </p>
       <div className="Cities-main d-flex">
         <a className="cities_sec text-center" href="#">
-          <img src={new_york} alt="new_york" />
+          <img className="city_img" src={new_york} alt="new_york" />
           <h3 className="mt-3">New York</h3>
         </a>
         <a className="cities_sec text-center" href="#">
-          <img src={san_francisco} alt="san_francisco" />
+          <img className="city_img" src={san_francisco} alt="san_francisco" />
           <h3 className="mt-3">San Francisco</h3>
         </a>
         <a className="cities_sec text-center" href="#">
-          <img src={chicago} alt="chicago" />
+          <img className="city_img" src={chicago} alt="chicago" />
           <h3 className="mt-3">Chicago</h3>
         </a>
         <a className="cities_sec text-center" href="#">
-          <img src={nashville} alt="nashville" />
+          <img className="city_img" src={nashville} alt="nashville" />
           <h3 className="mt-3">Nashville</h3>
         </a>
         <a className="cities_sec text-center" href="#">
-          <img src={miami} alt="miami" />
+          <img className="city_img" src={miami} alt="miami" />
           <h3 className="mt-3">Miami</h3>
         </a>
       </div>

@@ -8,16 +8,16 @@ div > p {
 .cities_sec:hover {
   text-decoration: underline !important;
 }
+.cities_sec:hover .city_img{
+  opacity: 0.8;
+}
 a > h3 {
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.75rem;
 }
-a > img {
+.city_img {
   border-radius: 9999px;
-}
-a > img:hover {
-  opacity: 0.8;
 }
 .row {
   gap: 3%;

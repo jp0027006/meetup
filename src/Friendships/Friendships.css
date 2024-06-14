@@ -1,0 +1,24 @@
+.frienship-main{
+    column-gap: 3.5%;
+}
+.frienship_sec:hover .blog_image{
+    opacity: 0.8;
+}
+.frienship_sec:hover .read{
+    text-decoration: underline;
+}
+.blog_image{
+    border-radius: .5rem;
+}
+a>h3{
+    padding-right: 1rem;
+}
+.des{
+    font-weight: 400;
+    --tw-text-opacity: 1;
+    color: rgb(112 112 112/var(--tw-text-opacity));
+}
+.read{
+    --tw-text-opacity: 0.75;
+    color: rgb(0 121 138 / var(--tw-text-opacity));
+}
