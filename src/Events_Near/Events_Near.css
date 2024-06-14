@@ -48,3 +48,9 @@ h2{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.edit{
+    fill: currentColor;
+    width:22px;
+    height:22px;
+    margin-left: -7px;
+}

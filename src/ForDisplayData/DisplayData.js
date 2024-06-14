@@ -12,9 +12,9 @@ const DisplayData = ({ event }) => {
     
     return (
         <div className="event_module">
-            <img className='UE_images' src={UE_Temp_Photo} alt={event.UE_Name} height="100%" width="100%"/> 
+            {/* <img className='UE_images' src={UE_Temp_Photo} alt={event.UE_Name} height="100%" width="100%"/>  */}
 
-            {/* <img className='UE_images' src={`../images/upcoming_event_photos/${event.UE_Photo}`} alt={event.UE_Name} height="100%" width="100%"/>  */}
+            <img className='UE_images' src={`./images/upcoming_event_photos/${event.UE_Photo}`} alt={event.UE_Name} height="100%" width="100%"/>
             <h5 className='UE_name'>{event.UE_Name}</h5>
             <p className='UE_hostby'>{event.UE_HostedBy}</p>
             <p className='UE_time_date'>
