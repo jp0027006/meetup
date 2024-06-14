@@ -7,6 +7,7 @@ import JoinMeetUp_Signup from "./JoinMeetUp_Signup/JoinMeetUp_Signup";
 import Categories from "./Events_categories/Categories";
 import Cities from "./Cities/Cities";
 import Friendships from "./Friendships/Friendships";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Cities />
         <Friendships />
       </div>
+      <Footer />
     </div>
   );
 }
