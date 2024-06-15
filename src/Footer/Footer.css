@@ -1,5 +1,6 @@
 .footer_main{
     z-index: 0;
+    padding-bottom: 1.5rem;
     --tw-text-opacity: 1;
     color: rgba(246,247,248,var(--tw-text-opacity));
     padding-top: 1rem;
@@ -25,13 +26,14 @@
     flex-direction: row;
     align-items: center;
     margin-top: 0.5rem;
-    padding-bottom: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
     justify-content: flex-start;
 }
 .footer_main_part1_1{
     display: block;
     font-weight: 600;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #707070;
     width: 1120px;
     height: 69px;
 
@@ -55,7 +57,7 @@
 }
 .footer_main_part2{
     --tw-space-y-reverse: 0;
-    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+    padding-top: 1rem;
     margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
     display: flex;
     justify-content: space-between;
@@ -80,7 +82,9 @@
     line-height: 20px;
     letter-spacing: 0;
     text-decoration: none;
-    
+}
+.footer_main_part2_1_el_li:hover{
+    color: white;
 }
 
 .footer_main_part3{
@@ -92,9 +96,6 @@
     flex-direction: row;
     align-items: center;
 }
-.footer_main_part3_h{
-    margin-bottom: 0.75rem;
-}
 .footer_main_part3_b{
     display: flex;
     flex-direction: row;
@@ -102,7 +103,7 @@
 }
 .footer_main_part3_b_i{
     font-weight: 100;
-    width: 8vh;
+    width: 3.5rem;
     text-decoration: none;
     margin-right: 10px;
 }
@@ -115,31 +116,22 @@
     color:transparent;
     text-decoration: none;
     display: inline-block;
-    max-width: 100%;
+    width: 10rem;
     overflow: hidden;
     box-sizing: border-box;
     margin: 0;
-}
-.footer_main_part3_4_img2{
-    width: 100%;
-    padding-right: 2%;
-    top: 0px;
-    padding-left: 10%;
-    margin: 0px;
-    height: 100%;
 }
 .footer_main_part3_4_img{
     left: 0;
     bottom: 0;
     right: 0;
     box-sizing: border-box;
-    padding-right: 15%;
     border: none;
     margin: auto;
     display: block;
-
-    min-width: 100%;
-    max-width: 100%;
+    max-width: 30rem;
+    border: 1px #707070 solid;
+    margin-right: 1rem;
     min-height: 100%;
     max-height: 100%;
    

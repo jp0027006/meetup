@@ -78,6 +78,11 @@ function Footer() {
                   Local guides
                 </a>
               </li>
+              <li className="footer_main_part2_1_el">
+                <a href="/" className="footer_main_part2_1_el_li">
+                  Make Friends
+                </a>
+              </li>
             </ul>
           </div>
           <div className="footer_main_part2_1">
@@ -110,13 +115,18 @@ function Footer() {
                   Apps
                 </a>
               </li>
+              <li className="footer_main_part2_1_el">
+                <a href="/" className="footer_main_part2_1_el_li">
+                  Podcast
+                </a>
+              </li>
             </ul>
           </div>
         </div>
         <div className="footer_main_part3">
           <div>
             <div>Follow us</div>
-            <div className="footer_main_part3_b mt-4">
+            <div className="footer_main_part3_b mt-3">
               <a href="/" className="footer_main_part3_b_i">
                 <svg
                   data-swarm-icon="true"
@@ -168,12 +178,12 @@ function Footer() {
               <img className="footer_main_part3_4_img" src={google} alt="Google Play Store" />
             </div>
             <div className="footer_main_part3_4">
-              <img className="footer_main_part3_4_img2" src={apple} alt="Apple App Store" />
+              <img className="footer_main_part3_4_img" src={apple} alt="Apple App Store" />
             </div>
           </a>
         </div>
         <div className="footer_main_part4">
-          <span className="text_white">©2021 Meetup</span>
+          <span className="text_white">© 2024 Meetup</span>
           <a href="/" className="t">
             Terms of Service
           </a>
