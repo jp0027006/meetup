@@ -1,7 +1,7 @@
 import React from "react";
 import "./Events_Near.css";
 import edit_btn from "../images/edit_btn.png";
-import DisplayData from "../ForDisplayData/DisplayData";
+import DisplayData from "../HomeScreenLayout_ForDisplayData/DisplayData";
 import Events_Near_Data from "../AppData.json";
 
 function Events_Near() {

@@ -1,7 +1,7 @@
 {
     "NearEvent": [   
         {
-            "id": "1",
+            "id": "Ahmedabad_Team24",
             "UE_Photo": "Ahmedabad_Team24.png",
             "UE_Name": "Ahmedabad Team'24: SAVE THE DATE",
             "UE_HostedBy": "Hosted by: Ahmedabad Atlassian Community",
@@ -10,7 +10,7 @@
             "UE_price": "Free"
         },
         {
-            "id": "2",
+            "id": "Designing_Scalable_Architecture",
             "UE_Photo": "Designing_Scalable_Architecture.png",
             "UE_Name": "Designing Scalable Architecture for 50 Billion Daily Requests",
             "UE_HostedBy": "Hosted by: IQM Meetup - Ahmedabad",
@@ -19,7 +19,7 @@
             "UE_price": "Free"
         },
         {
-            "id": "3",
+            "id": "Meditation",
             "UE_Photo": "Meditation.png",
             "UE_Name": "Meditation: Flowering of your BEing",
             "UE_HostedBy": "Hosted by: Anannd Utsav: Center for Holistic Wellness",
@@ -28,7 +28,7 @@
             "UE_price": "Free"
         },
         {
-            "id": "4",
+            "id": "AWS_Community_Day",
             "UE_Photo": "AWS_Community_Day.png",
             "UE_Name": "AWS Community Day GEN AI Edition",
             "UE_HostedBy": "Hosted by: Chennai Atlassian Community Events",
@@ -37,7 +37,7 @@
             "UE_price": "Free"
         },
         {
-            "id": "5",
+            "id": "Swift_SwiftUI",
             "UE_Photo": "Swift_SwiftUI.png",
             "UE_Name": "Swift, SwiftUI & Environment",
             "UE_HostedBy": "Hosted by: Apple Developers Club iOS | Swift | macOS | watchOS",
@@ -46,7 +46,7 @@
             "UE_price": "Free"
         },
         {
-            "id": "6",
+            "id": "Umeed_Foundation_Education_Meetup",
             "UE_Photo": "Umeed_Foundation_Education_Meetup.png",
             "UE_Name": "Umeed Foundation Education Meetup",
             "UE_HostedBy": "Hosted by: Umeed Foundation",
@@ -55,7 +55,7 @@
             "UE_price": "Free"
         },
         {
-            "id": "7",
+            "id": "Ahmedabad_Startup_Meetup",
             "UE_Photo": "Ahmedabad_Startup_Meetup.png",
             "UE_Name": "Ahmedabad Startup Meetup",
             "UE_HostedBy": "Hosted by: eChai Ahmedabad Startup Network",
@@ -64,7 +64,7 @@
             "UE_price": "Free"
         },
         {
-            "id": "8",
+            "id": "Azure_AI_Day",
             "UE_Photo": "Azure_AI_Day.png",
             "UE_Name": "Azure AI Day - Ahmedabad",
             "UE_HostedBy": "Hosted by: M365 Ahmedabad User Group",
@@ -75,7 +75,7 @@
     ],
     "UpcomingOnlineEvents": [   
         {
-            "id": "1",
+            "id": "WSGI",
             "UE_Photo": "WSGI.webp",
             "UE_Name": "WSGI - What The Heck Is Going On!",
             "UE_HostedBy": "Hosted by: Software Craftspeople Community",
@@ -84,7 +84,7 @@
             "UE_price": "Free"
         },
         {
-            "id": "2",
+            "id": "PGD",
             "UE_Photo": "PGD.webp",
             "UE_Name": "PGD-AI Study Circle - Machine Learning Using Python (Sessions 1-9)",
             "UE_HostedBy": "Hosted by: Emerging Open Tech Forum",
@@ -93,7 +93,7 @@
             "UE_price": "Free"
         },
         {
-            "id": "3",
+            "id": "daily",
             "UE_Photo": "daily.webp",
             "UE_Name": "Daily Online workout, weight managements and fitness session (Evening Batch)",
             "UE_HostedBy": "Hosted by: Ahmedabad Meetups! 🥳",
@@ -102,7 +102,7 @@
             "UE_price": "Free"
         },
         {
-            "id": "4",
+            "id": "microsoft",
             "UE_Photo": "microsoft.webp",
             "UE_Name": "Join Us for Microsoft DevOps Mastery Webinar on AZ-400 Solution Design",
             "UE_HostedBy": "Hosted by: Azure Tech Community Gujarat",

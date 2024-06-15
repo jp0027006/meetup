@@ -1,5 +1,5 @@
 import React from "react";
-import DisplayData from '../ForDisplayData/DisplayData'; 
+import DisplayData from '../HomeScreenLayout_ForDisplayData/DisplayData'; 
 import Events_Near_Data from '../AppData.json'; 
 
 function UpcomingOnlineEvents()
