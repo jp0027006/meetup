@@ -1,95 +1,142 @@
-.navbar{
-    padding-left: 1.3%;
-    padding-right: 1%;
-    height: 4.5rem;
+.navbar {
+  padding-left: 1.3%;
+  padding-right: 1%;
+  height: 4.5rem;
 }
-.signup_btn{
-    font-weight: bold;
-    background-color: #00798A;
-    color: white;
+.signup_btn {
+  font-weight: bold;
+  background-color: #00798a;
+  color: white;
 }
-.signup_btn:hover{
-    background-color: #008FA3;
-    color: white;
+.signup_btn:hover {
+  background-color: #008fa3;
+  color: white;
 }
-.login_btn{
-    font-weight: 500;
-    color: black;
-    text-decoration: none;
+.login_btn {
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
 }
-.login_btn:hover{
-    color: #00798A;
+.login_btn:hover {
+  color: #00798a;
 }
-.form_search{
-    height: 2.6rem;
-    margin-left: 0.75%;
-    width: 32.25%;
+.form_search {
+  height: 2.6rem;
+  margin-left: 0.75%;
+  width: 32.25%;
 }
-.search_sec_1{
-    border-top-right-radius: 0;
-    padding: 0;
-    border-bottom-right-radius: 0;
-    width: 50%;
-    display: flex;
+.search_sec_1 {
+  border-top-right-radius: 0;
+  padding: 0;
+  border-bottom-right-radius: 0;
+  width: 50%;
+  display: flex;
 }
-.search_sec_1:hover{
-    border: 1px black solid;
-}
-
-.search_sec_1_part1{
-    width: 12%;
-    padding-top: 1%;
-    padding-left: 2%;
-}
-.search_sec_1_part1> img {
-    opacity: 0.6;
-}
-.search_sec_1_part2{
-    width: 85%;
-    height: 2.6rem;
-}
-.search_filed{
-    margin-top: 0.05rem;
-    height: 2.4rem;
-    width: 100%;
-    border: 0 transparent solid;
-}
-.search_filed:focus{
-    border: 0 transparent solid;
-    outline: none;
-}
-.search_sec_2{
-    border-radius: 0;
-    width: 42.75%;
-}
-.search_sec_2::placeholder{
-    color: black;
-}
-.search_btn{
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 0.5% 2% 2.5% 2%;
-    width: 9.25%;
-    background-color: #F65858;
-}
-.search_btn:hover{
-    background-color: #F65858;
+.search_sec_1:hover {
+  border: 1px black solid;
 }
 
-.launguage_btn{
-    padding: 0;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    height: 2.5rem;
-    text-decoration: none;
+.search_sec_1_part1 {
+  width: 12%;
+  padding-top: 1%;
+  padding-left: 2%;
 }
-.launguage_btn > img{
-    margin-bottom: 3%;
-    padding-right: 0.25rem;
+.search_sec_1_part1 > img {
+  opacity: 0.6;
 }
-.launguage_btn:hover{
-    color: black;
+.search_sec_1_part2 {
+  width: 85%;
+  height: 2.6rem;
+}
+.search_filed {
+  margin-top: 0.05rem;
+  height: 2.4rem;
+  width: 100%;
+  border: 0 transparent solid;
+}
+.search_filed:focus {
+  border: 0 transparent solid;
+  outline: none;
+}
+.search_sec_2 {
+  border-radius: 0;
+  width: 42.75%;
+}
+.search_sec_2::placeholder {
+  color: black;
+}
+.search_btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0.5% 2% 2.5% 2%;
+  width: 9.25%;
+  background-color: #f65858;
+}
+.search_btn:hover {
+  background-color: #f65858;
+}
+
+.launguage_btn {
+  padding: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  height: 2.5rem;
+  text-decoration: none;
+}
+.launguage_btn > img {
+  margin-bottom: 3%;
+  padding-right: 0.25rem;
+}
+.launguage_btn:hover {
+  color: black;
+}
+.not {
+  font-weight: 400;
+  color: black;
+}
+.sign_up {
+  margin-left: 5px;
+  --tw-text-opacity: 1;
+  color: rgb(0 121 138 / var(--tw-text-opacity));
+}
+.log_in {
+  border-radius: 8px;
+  color: #fff;
+  fill: #fff;
+  background-color: #e32359;
+  border-color: transparent;
+  padding: 8px 12px;
+  width: 100%;
+  height: 3rem;
+  font-size: 1.25rem;
+  line-height: 24px;
+  font-weight: 500;
+}
+.log_in_social {
+  display: flex;
+  align-items: center;
+  height: 3.25rem;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: 1px solid #6c757d;
+  padding-left: 1rem;
+  font-weight: 400;
+  gap: 20%;
+}
+.log_in_social img {
+  width: 24px;
+  height: 24px;
+}
+.text {
+  --tw-text-opacity: 1;
+  color: rgb(112 112 112 / var(--tw-text-opacity));
+}
+.issue-text{
+    font-size: 0.9rem;
+    --tw-text-opacity: 1;
+    color: rgb(0 121 138 / var(--tw-text-opacity));
 }
