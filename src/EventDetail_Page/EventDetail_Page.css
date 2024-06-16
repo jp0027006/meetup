@@ -1,0 +1,119 @@
+.EventDetail_Page{
+    background-color: #F6F7F8;  
+    font-family: Graphik Meetup, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.EventDetail_Page_body{
+    width: 70.5rem;
+    height: 100vh;
+    margin: 0 auto 0 auto;
+    padding-top: 3.5rem;
+}
+.name_hostedBy{
+    height: 9rem;
+    width: 100%;
+    font-weight: 500;
+    padding: 0 auto;
+    border: 1px #E6E6E5 solid;
+    background-color: white;
+}
+.name_hostedBy_Sub{
+    height: 100%;
+    width: 71rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.event_name{
+    margin: 0;
+}
+.event_hostBy{
+    margin: 0;
+}
+.event_hostBy_title{
+    color: black;
+}
+.event_hostBy_name{
+    color: black;
+    font-weight: bold;
+}
+
+
+.EventDetail_Page_body_left_section{
+    width: 42.5rem;
+}
+.evenet_photo{
+    height: 23.5rem;
+    border-radius: 0;
+    margin: 0;
+}
+.details_title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.details_data{
+    width: 100%;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+}
+
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 6rem;
+    background-color: white;
+    width: 100%;
+}
+.footer_sub{
+    width: 70.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer_sections_2{
+    display: flex;
+    align-items: center;
+}
+.footer_sections_name{
+    font-weight: bold;
+}
+.free_text{
+    font-weight: bold;
+}
+.saved_icon{
+    height: 1.5rem;
+    width: 1.8rem;
+}
+.saved_icon > img {
+    margin: 0;
+}
+.share_btn{
+    height: 3.5rem;
+    display: flex;
+    font-weight: bolder;
+    background-color: white;
+    color: #00798A;
+    padding: 0.8rem 2.2rem;
+    border: 2px #00798A solid;
+    border-radius: 10px;
+}
+.share_btn > img {
+    margin: 0;
+    height: 1.75rem;
+    padding-left: 0.4rem;
+    padding-right: 0.3rem;
+}
+.attend_btn{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    border: 0px white solid;
+    padding: 1rem 2.2rem;
+    background-color: #F65858;
+    border-radius: 10px;
+}
