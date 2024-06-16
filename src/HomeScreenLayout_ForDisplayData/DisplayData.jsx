@@ -23,7 +23,7 @@ const DisplayData = ({ event }) => {
                 <div className="UE_time_date_2">
                     {event.UE_Time_Date}
                 </div>         
-            </div>z``
+            </div>
             <div className="vis_price_con">
                 <p className='UE_visitors'> <img src={visitor_icon} alt="Visitors" /> {event.UE_Visitor}</p>
                 <p className='UE_price'>  <img src={price_icon} alt="Price" />  {event.UE_price}</p>
