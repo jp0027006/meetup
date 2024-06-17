@@ -135,8 +135,56 @@
   --tw-text-opacity: 1;
   color: rgb(112 112 112 / var(--tw-text-opacity));
 }
-.issue-text{
-    font-size: 0.9rem;
-    --tw-text-opacity: 1;
-    color: rgb(0 121 138 / var(--tw-text-opacity));
+.issue-text {
+  font-size: 0.9rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 121 138 / var(--tw-text-opacity));
+}
+.language-modal-content {
+  padding-left: 13rem;
+  padding-right: 13rem;
+  margin-top: 4rem;
+}
+.language-modal {
+  --bs-modal-width: 1050px;
+}
+.lan-col {
+  flex: 1 0 0%;
+  padding: 0.5rem;
+}
+.language {
+  font-size: large;
+  margin-left: 5%;
+}
+.save_btn {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  line-height: 2rem;
+  font-weight: 600;
+  font-size: larger;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: .625rem;
+  padding-bottom: .625rem;
+  border-radius: .5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 88 88 / var(--tw-bg-opacity));
+  --tw-border-opacity: 0;
+    border-color: rgb(246 88 88 / var(--tw-border-opacity));
+}
+.cancel_btn{
+  --tw-text-opacity: 1;
+  color: rgb(112 112 112 / var(--tw-text-opacity));
+  line-height: 2rem;
+  font-weight: 600;
+  font-size: larger;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: .625rem;
+  padding-bottom: .625rem;
+  border-radius: .5rem;
+  --tw-bg-opacity: 0;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border: 1px solid #6c757d;
 }

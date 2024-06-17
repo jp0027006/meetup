@@ -58,7 +58,11 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <button className="btn btn-link launguage_btn me-1">
+                <button
+                  className="btn btn-link launguage_btn me-1"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal3"
+                >
                   <img src="https://secure.meetupstatic.com/next/images/design-system-icons/globe-outline.svg" />
                   English
                 </button>
@@ -86,6 +90,219 @@ function NavBar() {
             </ul>
           </div>
 
+          {/* Language modal */}
+          <div
+            className="modal fade"
+            id="exampleModal3"
+            tabIndex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog modal-xl modal-dialog-centered language-modal">
+              <div className="modal-content">
+                <div className="modal-body">
+                  <button
+                    type="button"
+                    className="btn-close float-end"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                  <div className="d-flex flex-column mb-2 language-modal-content">
+                    <h2>Change your language</h2>
+                  </div>
+                  <div className="language-modal-content">
+                    <div className="row">
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                          checked
+                        />
+                        <label className="language" htmlFor="">
+                          English
+                        </label>
+                      </div>
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          Français
+                        </label>
+                      </div>
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          Türkçe
+                        </label>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          English (Australia)
+                        </label>
+                      </div>
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          Italiano
+                        </label>
+                      </div>
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          ไทย
+                        </label>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          Deutsch
+                        </label>
+                      </div>
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          Nederlands
+                        </label>
+                      </div>
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          日本語
+                        </label>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          Español
+                        </label>
+                      </div>
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          Polski
+                        </label>
+                      </div>
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          한국어
+                        </label>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          Español (España)
+                        </label>
+                      </div>
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          Português
+                        </label>
+                      </div>
+                      <div className="lan-col">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="flexRadioDefault"
+                          id="flexRadioDefault1"
+                        />
+                        <label className="language" htmlFor="">
+                          Русский
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="d-flex flex-column mb-5 language-modal-content" style={{alignItems: "center"}}>
+                    <div class="d-flex text-center" style={{gap: "1.5rem"}}>
+                      <button className="save_btn">
+                        Save
+                      </button>
+                      <button className="cancel_btn">
+                        Cancel
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Log in modal */}
 
           <div
@@ -104,13 +321,13 @@ function NavBar() {
                     data-bs-dismiss="modal"
                     aria-label="Close"
                   ></button>
-                  <div class="d-flex flex-column mb-1 mt-5 mb-md-8 align-items-center">
+                  <div className="d-flex flex-column mb-1 mt-5 mb-md-8 align-items-center">
                     <svg
                       viewBox="0 0 51 49"
                       xmlns="http://www.w3.org/2000/svg"
                       width="48"
                       height="48"
-                      class="mb-2"
+                      className="mb-2"
                     >
                       <g fill-rule="nonzero" fill="none">
                         <path
@@ -123,11 +340,13 @@ function NavBar() {
                         ></path>
                       </g>
                     </svg>
-                    <h3 class="ds-font-title-2 mb-2 font-semibold">Log in</h3>
-                    <div class="flex space-x-1">
+                    <h3 className="ds-font-title-2 mb-2 font-semibold">
+                      Log in
+                    </h3>
+                    <div className="flex space-x-1">
                       <span className="not">Not a member yet?</span>
                       <a
-                        class="sign_up"
+                        className="sign_up"
                         href="https://www.meetup.com/register/?returnUri=https%3A%2F%2Fwww.meetup.com%2Fhome"
                         data-element-name="login-sign-up-link"
                         data-event-label="signup-on-login"
@@ -136,60 +355,63 @@ function NavBar() {
                       </a>
                     </div>
                   </div>
-                  <div class="d-flex flex-column mb-5 ps-5 pe-5 ">
+                  <div className="d-flex flex-column mb-5 ps-5 pe-5 ">
                     <form>
-                      <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">
+                      <div className="mb-3">
+                        <label for="exampleInputEmail1" className="form-label">
                           <b>Email</b>
                         </label>
                         <input
                           type="email"
-                          class="form-control"
+                          className="form-control"
                           id="exampleInputEmail1"
                           aria-describedby="emailHelp"
                         />
                       </div>
-                      <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">
+                      <div className="mb-3">
+                        <label
+                          for="exampleInputPassword1"
+                          className="form-label"
+                        >
                           <b>Password</b>
                         </label>
                         <a
                           href="#"
                           for="exampleInputPassword1"
-                          class="form-label float-end sign_up"
+                          className="form-label float-end sign_up"
                         >
                           Forgot password
                         </a>
                         <input
                           type="password"
-                          class="form-control"
+                          className="form-control"
                           id="exampleInputPassword1"
                         />
                       </div>
-                      <div class="mb-3 form-check">
+                      <div className="mb-3 form-check">
                         <input
                           type="checkbox"
-                          class="form-check-input"
+                          className="form-check-input"
                           id="exampleCheck1"
                         />
-                        <label class="form-check-label" for="exampleCheck1">
+                        <label className="form-check-label" for="exampleCheck1">
                           Keep me signed in
                         </label>
                       </div>
-                      <button type="submit" class="log_in">
+                      <button type="submit" className="log_in">
                         Log in
                       </button>
                     </form>
                   </div>
-                  <div class="d-flex flex-row mb-5 ps-5 pe-5 justify-content-between align-items-center">
-                    <div class="flex-grow-1 border-bottom border-secondary text"></div>
-                    <span class="px-3 text-secondary text">or</span>
-                    <div class="flex-grow-1 border-bottom border-secondary text"></div>
+                  <div className="d-flex flex-row mb-5 ps-5 pe-5 justify-content-between align-items-center">
+                    <div className="flex-grow-1 border-bottom border-secondary text"></div>
+                    <span className="px-3 text-secondary text">or</span>
+                    <div className="flex-grow-1 border-bottom border-secondary text"></div>
                   </div>
-                  <div class="d-flex flex-column mb-2 ps-5 pe-5 ">
+                  <div className="d-flex flex-column mb-2 ps-5 pe-5 ">
                     <a
                       href="#"
-                      class="log_in_social mb-4 text-decoration-none text-dark"
+                      className="log_in_social mb-4 text-decoration-none text-dark"
                     >
                       <img
                         role="presentation"
@@ -202,7 +424,7 @@ function NavBar() {
                     </a>
                     <a
                       href="#"
-                      class="log_in_social mb-4 text-decoration-none text-dark"
+                      className="log_in_social mb-4 text-decoration-none text-dark"
                     >
                       <img
                         role="presentation"
@@ -215,7 +437,7 @@ function NavBar() {
                     </a>
                     <a
                       href="#"
-                      class="log_in_social mb-4 text-decoration-none text-dark"
+                      className="log_in_social mb-4 text-decoration-none text-dark"
                     >
                       <img
                         role="presentation"
@@ -228,10 +450,10 @@ function NavBar() {
                     </a>
                   </div>
                   <div
-                    class="d-flex flex-column mb-3 ps-5 pe-5"
+                    className="d-flex flex-column mb-3 ps-5 pe-5"
                     style={{ alignItems: "center" }}
                   >
-                    <a href="#" class="issue-text">
+                    <a href="#" className="issue-text">
                       Issues with log in?
                     </a>
                   </div>
@@ -258,13 +480,13 @@ function NavBar() {
                     data-bs-dismiss="modal"
                     aria-label="Close"
                   ></button>
-                  <div class="d-flex flex-column mb-1 mt-5 mb-md-8 align-items-center">
+                  <div className="d-flex flex-column mb-1 mt-5 mb-md-8 align-items-center">
                     <svg
                       viewBox="0 0 51 49"
                       xmlns="http://www.w3.org/2000/svg"
                       width="48"
                       height="48"
-                      class="mb-2"
+                      className="mb-2"
                     >
                       <g fill-rule="nonzero" fill="none">
                         <path
@@ -277,11 +499,13 @@ function NavBar() {
                         ></path>
                       </g>
                     </svg>
-                    <h3 class="ds-font-title-2 mb-2 font-semibold">Sign up</h3>
-                    <div class="flex mb-4 space-x-1">
+                    <h3 className="ds-font-title-2 mb-2 font-semibold">
+                      Sign up
+                    </h3>
+                    <div className="flex mb-4 space-x-1">
                       <span className="not">Already a member?</span>
                       <a
-                        class="sign_up"
+                        className="sign_up"
                         href="https://www.meetup.com/register/?returnUri=https%3A%2F%2Fwww.meetup.com%2Fhome"
                         data-element-name="login-sign-up-link"
                         data-event-label="signup-on-login"
@@ -290,10 +514,10 @@ function NavBar() {
                       </a>
                     </div>
                   </div>
-                  <div class="d-flex flex-column mb-2 ps-5 pe-5 ">
+                  <div className="d-flex flex-column mb-2 ps-5 pe-5 ">
                     <a
                       href="#"
-                      class="log_in_social mb-4 text-decoration-none text-dark"
+                      className="log_in_social mb-4 text-decoration-none text-dark"
                     >
                       <img
                         role="presentation"
@@ -306,7 +530,7 @@ function NavBar() {
                     </a>
                     <a
                       href="#"
-                      class="log_in_social mb-4 text-decoration-none text-dark"
+                      className="log_in_social mb-4 text-decoration-none text-dark"
                     >
                       <img
                         role="presentation"
@@ -319,7 +543,7 @@ function NavBar() {
                     </a>
                     <a
                       href="#"
-                      class="log_in_social mb-4 text-decoration-none text-dark"
+                      className="log_in_social mb-4 text-decoration-none text-dark"
                     >
                       <img
                         role="presentation"
@@ -332,7 +556,7 @@ function NavBar() {
                     </a>
                     <a
                       href="#"
-                      class="log_in_social mb-4 text-decoration-none text-dark"
+                      className="log_in_social mb-4 text-decoration-none text-dark"
                     >
                       <img
                         role="presentation"
