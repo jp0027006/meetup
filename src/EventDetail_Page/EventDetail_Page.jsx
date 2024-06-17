@@ -29,7 +29,7 @@ const EventDetail_Page = () => {
                 <img src={require(`../images/upcoming_event_photos/${event.UE_Photo}`)} alt={event.UE_Name} height="100%" width="100%" className='evenet_photo' />
                 
                 <div className='details_title'>Details</div>
-                <div className="details_data"> {event.UE_Name} </div>
+                <div dangerouslySetInnerHTML={{ __html: event.UE_Details }} className='details_data'/>
                 
                 {/* <p>{event.UE_Time_Date}</p>
                 <p>{event.UE_Visitor}</p>
