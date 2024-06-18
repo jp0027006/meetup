@@ -4,8 +4,9 @@
             "id": "Ahmedabad_Team24",
             "UE_Photo": "Ahmedabad_Team24.png",
             "UE_Name": "Ahmedabad Team'24: SAVE THE DATE",
-            "UE_HostedBy": "Hosted by: Ahmedabad Atlassian Community",
+            "UE_HostedBy": "Ahmedabad Atlassian Community",
             "UE_Time_Date": "SUN, JUN 16 · 10:30 AM IST",
+            "UE_Details": "Join us for an exciting event hosted by the Ahmedabad Atlassian Community. Save the date and be part of a vibrant gathering of professionals and enthusiasts. Whether you are new to the community or a seasoned member, this event promises valuable insights, networking opportunities, and engaging discussions. Don't miss out on this chance to connect with like-minded individuals and stay updated on the latest trends and practices within the Atlassian ecosystem.",
             "UE_Visitor": "90 going",
             "UE_price": "Free"
         },
@@ -13,8 +14,9 @@
             "id": "Designing_Scalable_Architecture",
             "UE_Photo": "Designing_Scalable_Architecture.png",
             "UE_Name": "Designing Scalable Architecture for 50 Billion Daily Requests",
-            "UE_HostedBy": "Hosted by: IQM Meetup - Ahmedabad",
+            "UE_HostedBy": "IQM Meetup - Ahmedabad",
             "UE_Time_Date": "SAT, JUN 22 · 9:30 AM IST",
+            "UE_Details": "Scalability is not about making things bigger; it's about making things better, <br/><br/> In today's fast-paced tech landscape, scalability and reliability are essential for success. But how can you be sure your systems can handle growth and adapt to changing demands efficiently? The true test of a scalable system is not how well it performs under normal conditions, but how it thrives under unexpected stress. <br/><br/> Join us for an insightful meetup and learn about the strategies for building \"Scalable Architecture for 50 Billion Daily Requests\" ",
             "UE_Visitor": "18 going",
             "UE_price": "Free"
         },
@@ -22,8 +24,9 @@
             "id": "Meditation",
             "UE_Photo": "Meditation.png",
             "UE_Name": "Meditation: Flowering of your BEing",
-            "UE_HostedBy": "Hosted by: Anannd Utsav: Center for Holistic Wellness",
+            "UE_HostedBy": "Anannd Utsav: Center for Holistic Wellness",
             "UE_Time_Date": "SUN, JUN 16 · 5:30 PM IST",
+            "UE_Details": "Experience the journey of inner peace and self-discovery with our meditation session. Learn techniques to cultivate mindfulness and harmony within. This session, led by experienced practitioners at Anannd Utsav: Center for Holistic Wellness, will guide you through a series of practices designed to help you achieve a state of deep relaxation and mental clarity. Whether you are a beginner or an experienced meditator, this event offers a supportive environment to explore the transformative power of meditation.",
             "UE_Visitor": "20 going",
             "UE_price": "Free"
         },
@@ -31,8 +34,9 @@
             "id": "AWS_Community_Day",
             "UE_Photo": "AWS_Community_Day.png",
             "UE_Name": "AWS Community Day GEN AI Edition",
-            "UE_HostedBy": "Hosted by: Chennai Atlassian Community Events",
+            "UE_HostedBy": "Chennai Atlassian Community Events",
             "UE_Time_Date": "SAT, JUN 29 · 8:30 AM IST",
+            "UE_Details": "Join us for AWS Community Day, focusing on Generative AI. Engage with experts and peers to explore the latest advancements and applications in AI technology. This event, hosted by the Chennai Atlassian Community, provides a platform for learning and collaboration among AWS enthusiasts and professionals. Participate in insightful sessions, hands-on workshops, and interactive discussions to enhance your understanding of generative AI and its impact on various industries. Don't miss this opportunity to connect with the AWS community and expand your knowledge.",
             "UE_Visitor": "90 going",
             "UE_price": "Free"
         },
@@ -40,8 +44,9 @@
             "id": "Swift_SwiftUI",
             "UE_Photo": "Swift_SwiftUI.png",
             "UE_Name": "Swift, SwiftUI & Environment",
-            "UE_HostedBy": "Hosted by: Apple Developers Club iOS | Swift | macOS | watchOS",
+            "UE_HostedBy": "Apple Developers Club iOS | Swift | macOS | watchOS",
             "UE_Time_Date": "SAT, JUL 6 · 11:00 AM IST",
+            "UE_Details": "In this workshop, participants will uncover the powerful features of Swift that drive SwiftUI's innovative interface. Dive deep into Swift features such as Protocols, Property Wrappers, Result Builders, and Environment, and understand how they empower the SwiftUI framework. This hands-on session will foster a 'build it yourself to learn it fully' approach, encouraging participants to gain a comprehensive understanding by creating and experimenting with these tools firsthand. Don't miss this opportunity to enhance your Swift and SwiftUI skills and network with other developers in the Apple ecosystem.",
             "UE_Visitor": "20 going",
             "UE_price": "Free"
         },
@@ -49,8 +54,9 @@
             "id": "Umeed_Foundation_Education_Meetup",
             "UE_Photo": "Umeed_Foundation_Education_Meetup.png",
             "UE_Name": "Umeed Foundation Education Meetup",
-            "UE_HostedBy": "Hosted by: Umeed Foundation",
+            "UE_HostedBy": "Umeed Foundation",
             "UE_Time_Date": "SUN, JUN 16 · 10:30 AM IST",
+            "UE_Details": "Join the Umeed Foundation for an inspiring education meetup. This event focuses on empowering communities through education and development initiatives. Engage with educators, activists, and community members who are passionate about making a difference. The session will cover various topics including innovative teaching methods, community-driven educational programs, and ways to support underprivileged students. Don't miss this opportunity to contribute to meaningful discussions and collaborate on strategies to enhance educational opportunities for all.",
             "UE_Visitor": "7 going",
             "UE_price": "Free"
         },
@@ -58,8 +64,9 @@
             "id": "Ahmedabad_Startup_Meetup",
             "UE_Photo": "Ahmedabad_Startup_Meetup.png",
             "UE_Name": "Ahmedabad Startup Meetup",
-            "UE_HostedBy": "Hosted by: eChai Ahmedabad Startup Network",
+            "UE_HostedBy": "eChai Ahmedabad Startup Network",
             "UE_Time_Date": "SAT, JUN 15 · 6:30 PM IST",
+            "UE_Details": "Connect with entrepreneurs, investors, and startup enthusiasts at the Ahmedabad Startup Meetup. Hosted by eChai Ahmedabad Startup Network, this event is a great opportunity to share ideas, find collaborators, and gain insights from experienced founders. Whether you're looking to pitch your startup, seek mentorship, or simply network with like-minded individuals, this meetup provides a vibrant platform to foster innovation and entrepreneurship within the community. Join us for an evening of inspiration and growth.",
             "UE_Visitor": "15 going",
             "UE_price": "Free"
         },
@@ -67,8 +74,9 @@
             "id": "Azure_AI_Day",
             "UE_Photo": "Azure_AI_Day.png",
             "UE_Name": "Azure AI Day - Ahmedabad",
-            "UE_HostedBy": "Hosted by: M365 Ahmedabad User Group",
+            "UE_HostedBy": "M365 Ahmedabad User Group",
             "UE_Time_Date": "SAT, JUL 13 · 10:30 AM IST",
+            "UE_Details": "Explore the cutting-edge developments in AI technology at Azure AI Day, hosted by M365 Ahmedabad User Group. This event offers a comprehensive overview of Azure's AI capabilities and how they can be leveraged to solve real-world problems. Attendees will have the chance to participate in workshops, listen to expert talks, and engage in interactive sessions that highlight the practical applications of AI. Whether you're a developer, data scientist, or tech enthusiast, this day promises valuable insights and hands-on learning experiences.",
             "UE_Visitor": "65 going",
             "UE_price": "Free"
         }
@@ -78,8 +86,9 @@
             "id": "WSGI",
             "UE_Photo": "WSGI.webp",
             "UE_Name": "WSGI - What The Heck Is Going On!",
-            "UE_HostedBy": "Hosted by: Software Craftspeople Community",
+            "UE_HostedBy": "Software Craftspeople Community",
             "UE_Time_Date": "FRI, JUN 14 · 3:00 PM IST",
+            "UE_Details": "Delve into the intricacies of WSGI (Web Server Gateway Interface) with the Software Craftspeople Community. This online session aims to demystify WSGI, explaining its importance in web development and how it facilitates communication between web servers and Python web applications. Whether you're a seasoned developer or new to web development, this event will provide you with a clear understanding of WSGI's role and functionality, along with best practices for implementation.",
             "UE_Visitor": "5 going",
             "UE_price": "Free"
         },
@@ -87,8 +96,9 @@
             "id": "PGD",
             "UE_Photo": "PGD.webp",
             "UE_Name": "PGD-AI Study Circle - Machine Learning Using Python (Sessions 1-9)",
-            "UE_HostedBy": "Hosted by: Emerging Open Tech Forum",
+            "UE_HostedBy": "Emerging Open Tech Forum",
             "UE_Time_Date": "FRI, JUN 14 · 8:00 PM IST",
+            "UE_Details": "Join the Emerging Open Tech Forum for an in-depth study circle focusing on machine learning using Python. This series of sessions will cover fundamental concepts, algorithms, and practical applications of machine learning. Participants will gain hands-on experience with Python libraries and tools essential for developing machine learning models. Whether you're a beginner or looking to deepen your knowledge, this study circle provides a structured and collaborative environment for learning and growth.",
             "UE_Visitor": "9 going",
             "UE_price": "Free"
         },
@@ -96,8 +106,9 @@
             "id": "daily",
             "UE_Photo": "daily.webp",
             "UE_Name": "Daily Online workout, weight managements and fitness session (Evening Batch)",
-            "UE_HostedBy": "Hosted by: Ahmedabad Meetups! 🥳",
+            "UE_HostedBy": "Ahmedabad Meetups! 🥳",
             "UE_Time_Date": "THU, JUN 13 · 6:30 PM IST",
+            "UE_Details": "Stay fit and healthy with our daily online workout sessions. Hosted by Ahmedabad Meetups, these sessions are designed to cater to all fitness levels, offering a variety of exercises aimed at weight management and overall wellness. Join us every evening for a guided workout that will help you stay motivated and achieve your fitness goals. Connect with fellow fitness enthusiasts and enjoy the benefits of regular physical activity from the comfort of your home.",
             "UE_Visitor": "7 going",
             "UE_price": "Free"
         },
@@ -105,8 +116,9 @@
             "id": "microsoft",
             "UE_Photo": "microsoft.webp",
             "UE_Name": "Join Us for Microsoft DevOps Mastery Webinar on AZ-400 Solution Design",
-            "UE_HostedBy": "Hosted by: Azure Tech Community Gujarat",
+            "UE_HostedBy": "Azure Tech Community Gujarat",
             "UE_Time_Date": "SAT, JUN 15 · 10:00 AM IST",
+            "UE_Details": "Enhance your DevOps skills with our Microsoft DevOps Mastery Webinar, focusing on AZ-400 Solution Design. Hosted by Azure Tech Community Gujarat, this webinar will provide in-depth insights into designing effective DevOps solutions using Microsoft Azure. Learn from industry experts about best practices, tools, and techniques to optimize your DevOps workflows and improve operational efficiency. This session is ideal for IT professionals, developers, and anyone looking to advance their knowledge in DevOps.",
             "UE_Visitor": "30 going",
             "UE_price": "Free"
         }
