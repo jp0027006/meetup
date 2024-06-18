@@ -131,6 +131,7 @@ option{
 .see_all_events_location{
     width: 35%;
     height: 8rem;
+    margin-top: 0.75rem;
 }
 
 .event_render_section{
@@ -139,7 +140,34 @@ option{
 }
 
 .see_all_events_render{
-    background-color: rebeccapurple;
     width: 100%;
-    height: 10.5rem;
+    height: fit-content;
+}
+
+.map_sec{
+    background-color: white;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.75rem;
+    background-image: url('../images/blur-map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.browsmap_btn{
+    padding: 0.25rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #00798A;
+    border: 2px #00798A solid;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.browsmap_btn:hover{
+    background-color: #eff5f6;
 }

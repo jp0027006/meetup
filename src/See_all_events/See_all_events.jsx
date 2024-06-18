@@ -2,6 +2,9 @@ import React from 'react';
 import NavBar from '../NavBar/NavBar'
 import './See_all_events.css'
 import Footer from '../Footer/Footer'
+import AppData from '../AppData.json'
+import See_all_event_display_data from '../See_all_events_display_data/See_all_event_display_data';
+import open_map from '../images/open_map.png'
 
 function See_all_events() {
   return (
@@ -83,7 +86,9 @@ function See_all_events() {
                 <div className="event_render_section">
 
                     <div className="see_all_events_render">
-
+                        {AppData.NearEvent.map((event) => (
+                            <See_all_event_display_data key={event.id} event={event} />
+                        ))}
                     </div>
 
                     <div className="Start_a_group">
@@ -98,6 +103,9 @@ function See_all_events() {
                 <div className="see_all_events_location">
                     <div>Find events near</div>
                     <h4>Ahmedabad, IN</h4>
+                    <div className="map_sec">
+                        <button className='browsmap_btn'>Browse in map </button>
+                    </div>
                 </div>
 
             </div>
