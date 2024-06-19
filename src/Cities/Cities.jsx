@@ -39,9 +39,9 @@ function Cities() {
   <h2>How Meetup works</h2>
   <div className="container mt-4">
     <div className="row">
-      <a href="#" className="col-12 col-md-6 mb-4">
+      <a href="#" className="col col-12 col-md-6 mb-4">
         <div className="d-flex align-items-start">
-          <div className="me-3">
+          <div className="me-4">
             <img
               src="https://secure.meetupstatic.com/next/images/indexPage/how-it-works/search.svg?w=48"
               alt="search"
@@ -49,15 +49,15 @@ function Cities() {
             />
           </div>
           <div>
-            <h5 className="mb-2">Discover events and groups</h5>
-            <p className="mb-1">
+            <h5 className="mb-3">Discover events and groups</h5>
+            <p className="mb-3">
               See who's hosting local events for all the things you love
             </p>
             <span>Search events and groups</span>
           </div>
         </div>
       </a>
-      <a href="#" className="col-12 col-md-6 mb-2">
+      <a href="#" className="col col-12 col-md-6 mb-2">
         <div className="d-flex align-items-start">
           <div className="me-3">
             <img
@@ -67,8 +67,8 @@ function Cities() {
             />
           </div>
           <div>
-            <h5 className="mb-2">Start a group to host events</h5>
-            <p className="mb-1">
+            <h5 className="mb-3">Start a group to host events</h5>
+            <p className="mb-3">
               Create your own Meetup group, and draw from a community of
               millions
             </p>

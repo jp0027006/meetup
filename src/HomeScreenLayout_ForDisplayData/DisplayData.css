@@ -70,21 +70,22 @@ img{
 
 @media only screen and (max-width: 400px) {
     .event_module{
-        height: 24vh;
+        height: fit-content;
         width: 100%;
         margin-top: 0vh;
-        margin-bottom: 1vh;
+        margin-bottom: 2vh;
         border-radius: 0px;
         cursor: pointer;
         display: flex;
         background-color: white;
+        padding: 2vh 0;
         flex-direction: row-reverse;
     }
     .image_sec_dd{
-        width: 30%;
+        width: 25%;
     }
     .data_sec_dd{
-        width: 70%;
+        width: 75%;
         padding-right: 5%;
     }
     .event_module:hover .UE_images{
@@ -103,13 +104,13 @@ img{
     .UE_name{
         margin-top: 0.5rem;
         font-weight: bold;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .UE_hostby{
         margin-top: 0.25rem;
         color: #717171;
         font-weight: bold;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .UE_time_date{
         height: 1rem;
@@ -123,6 +124,7 @@ img{
     .UE_time_date_2{
         padding-left: 3%;
         display: flex;
+        font-size: 0.9rem;
         align-items: center;
     }
     .vis_price_con{
@@ -133,7 +135,7 @@ img{
         margin-top: 1rem;
     }
     .UE_visitors > img , .UE_price > img {
-        margin-top: 1px;
+        margin-top: -1px;
         padding: 0;
         padding-right: 0.35rem;
     }
@@ -142,6 +144,7 @@ img{
         height: 100%;
         display: flex;
         margin-right: 1.5rem;
+        font-size: 1rem;
     }
     .UE_price{
         margin: 0;

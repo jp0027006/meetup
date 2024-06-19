@@ -1,5 +1,10 @@
 .frienship-main{
-    column-gap: 3.5%;
+    column-gap: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.frienship_sec{
+    width: 31.5%;
 }
 .frienship_sec:hover .blog_image{
     opacity: 0.8;
@@ -9,6 +14,7 @@
 }
 .blog_image{
     border-radius: .5rem;
+    height: 12rem;
 }
 a>h3{
     padding-right: 1rem;
@@ -21,4 +27,17 @@ a>h3{
 .read{
     --tw-text-opacity: 0.75;
     color: rgb(0 121 138 / var(--tw-text-opacity));
+}
+
+@media only screen and (max-width: 400px) {
+    .frienship-main{
+        column-gap: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    .frienship_sec{
+        width: 100%;
+    }
+    
+    
 }

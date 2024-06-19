@@ -14,6 +14,9 @@ function Footer() {
               Get started
             </a>
           </div>
+          <div className="footer_main_part1_1 for_mobile_view">
+            Start a new group
+          </div>
         </div>
         <div className="footer_main_part2">
           <div className="footer_main_part2_1">

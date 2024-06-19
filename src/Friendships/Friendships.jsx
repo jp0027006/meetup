@@ -12,9 +12,9 @@ function Friendships() {
         like-minded people, spend time on hobbies, and connect with locals over
         shared interests. Learn how.
       </p>
-      <div className="frienship-main d-flex">
+      <div className="frienship-main">
         <a className="frienship_sec" href="#">
-          <img className="blog_image" src={f_artical} alt="new_york" />
+          <img className="blog_image" src={f_artical} alt="new_york" height="100%" width="100%"/>
           <h3 className="mt-3">I Used Meetup to Make Friends at Brunch</h3>
           <span className="des">
             New Jersey-based writer and college student Brianna Stryker wanted
@@ -24,7 +24,7 @@ function Friendships() {
           <p className="read">Read more</p>
         </a>
         <a className="frienship_sec" href="#">
-          <img className="blog_image" src={s_artical} alt="new_york" />
+          <img className="blog_image" src={s_artical} alt="new_york"  height="100%" width="100%"/>
           <h3 className="mt-3">
             How to Turn Casual Connections into Close Friendships
           </h3>
@@ -35,7 +35,7 @@ function Friendships() {
           <p className="read">Read more</p>
         </a>
         <a className="frienship_sec" href="#">
-          <img className="blog_image" src={t_artical} alt="new_york" />
+          <img className="blog_image" src={t_artical} alt="new_york"  height="100%" width="100%"/>
           <h3 className="mt-3">Do You Have the “Right” Number of Friends?</h3>
           <span className="des">
             Studies from around the world have tried to help people answer this
