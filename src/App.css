@@ -2,3 +2,9 @@
     width: 75rem;
     margin: 10vh auto 10vh auto;
 }
+@media only screen and (max-width: 400px) {
+    .parent_component{
+        width: 22.5rem;
+        margin: 12vh auto 10vh auto;
+    }
+}

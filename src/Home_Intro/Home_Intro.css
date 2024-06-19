@@ -22,3 +22,33 @@
     background-color: #008FA3;
     color: white;
 }
+
+@media only screen and (max-width: 400px) {
+    .Home_Intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .Home_Intro_Sec_1{
+        width: 100%;
+        padding-right: 0%;
+    }
+    .Home_Intro_Sec_1 > h1{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .Home_Intro_Sec_2{
+        width: 70%;
+        margin: 3vh auto 0vh auto;
+    }
+    .join_btn{
+        background-color: #00798A;
+        font-size: 1rem;
+        color: white;
+        font-weight: 500;
+        padding: auto 2%;
+    }
+    .join_btn:hover{
+        background-color: #008FA3;
+        color: white;
+    }
+}

@@ -105,7 +105,7 @@
         {
             "id": "daily",
             "UE_Photo": "daily.webp",
-            "UE_Name": "Daily Online workout, weight managements and fitness session (Evening Batch)",
+            "UE_Name": "Daily Online workout, weight managements and fitness session",
             "UE_HostedBy": "Ahmedabad Meetups! 🥳",
             "UE_Time_Date": "THU, JUN 13 · 6:30 PM IST",
             "UE_Details": "Stay fit and healthy with our daily online workout sessions. Hosted by Ahmedabad Meetups, these sessions are designed to cater to all fitness levels, offering a variety of exercises aimed at weight management and overall wellness. Join us every evening for a guided workout that will help you stay motivated and achieve your fitness goals. Connect with fellow fitness enthusiasts and enjoy the benefits of regular physical activity from the comfort of your home.",
@@ -115,7 +115,7 @@
         {
             "id": "microsoft",
             "UE_Photo": "microsoft.webp",
-            "UE_Name": "Join Us for Microsoft DevOps Mastery Webinar on AZ-400 Solution Design",
+            "UE_Name": "Join Us for Microsoft DevOps Mastery Webinar on AZ-400 Solution",
             "UE_HostedBy": "Azure Tech Community Gujarat",
             "UE_Time_Date": "SAT, JUN 15 · 10:00 AM IST",
             "UE_Details": "Enhance your DevOps skills with our Microsoft DevOps Mastery Webinar, focusing on AZ-400 Solution Design. Hosted by Azure Tech Community Gujarat, this webinar will provide in-depth insights into designing effective DevOps solutions using Microsoft Azure. Learn from industry experts about best practices, tools, and techniques to optimize your DevOps workflows and improve operational efficiency. This session is ideal for IT professionals, developers, and anyone looking to advance their knowledge in DevOps.",

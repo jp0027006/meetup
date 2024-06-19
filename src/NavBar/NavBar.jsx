@@ -10,7 +10,7 @@ function NavBar() {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand me-4" href="#">
-            <img src={logo} alt="Bootstrap" width="100" height="100" />
+            <img src={logo} alt="Meetup" width="100" height="100" />
           </a>
           <form className="d-flex me-auto form_search" role="search">
             <div className="form-control search_sec_1">
