@@ -186,11 +186,10 @@
 @media only screen and (max-width: 400px) {
     .footer_main{
         padding-bottom: 1rem;
-        --tw-text-opacity: 1;
         color: rgba(246,247,248,var(--tw-text-opacity));
         padding-top: 1rem;
         margin-top: 0;
-        --tw-bg-opacity: 1;
+        padding-left: 1rem;
         background-color: rgba(33,33,33,var(--tw-bg-opacity));
     }
     
@@ -214,8 +213,8 @@
     .footer_main_part1_1{
         display: block;
         font-weight: 600;
+        width: 94%;
         border-bottom: 1px solid #707070;
-        width: 1120px;
         height: 45px;
         display: none;
     }
