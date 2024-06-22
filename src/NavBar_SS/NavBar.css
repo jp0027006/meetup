@@ -1,0 +1,87 @@
+.NavBar_ss{
+  height: 12.5rem;
+  padding: 0 0%;
+}
+.navbar{
+  height: fit-content;
+}
+.container_fluid_SS{
+  height: fit-content;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.navbar_brand_ss{
+  height: 2.25rem;
+  width: 5rem;
+}
+.login_btn{
+  font-size: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+.launguage_btn_ss{
+  padding-left: 0%;
+  padding-right: 0.2rem;
+}
+.navbar_ss_btn{
+  margin-top: 1vh;
+  width: fit-content;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.signup_btn{
+  margin-left: 0.2rem;
+}
+.form_search_ss{
+  height: fit-content;
+  width: 94%;
+  margin-top: 0.75vh;
+  margin: auto 3%;
+}
+.search_sec_1_ss{
+  display: flex;
+  height: 2.6rem;
+  padding: 0;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.search_2_ss{
+  margin-top: 1.25vh;
+}
+.search_sec_2_ss{
+  display: flex;
+  height: 2.6rem;
+  padding-left: 4%;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.search_sec_2_ss::placeholder{
+  color: #000;
+}
+.search_sec_1_part1_ss{
+  width: 12%;
+  padding-top: 2%;
+  padding-left: 3%;
+}
+.search_btn_ss{
+  width: 14%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.6rem;
+  background-color: #F65858;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 0;
+}
+.search_btn_ss:hover{
+  background-color: #F65858;
+  cursor: pointer;
+}

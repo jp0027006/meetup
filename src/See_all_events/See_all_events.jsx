@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../NavBar/NavBar'
+import NavBar from '../NavBar_LS/NavBar'
 import './See_all_events.css'
 import Footer from '../Footer/Footer'
 import AppData from '../AppData.json'

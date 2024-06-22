@@ -2,7 +2,7 @@ import React from 'react';
 import './EventDetail_Page.css'
 import { useParams } from 'react-router-dom';
 import AppData from '../AppData.json';
-import NavBar from '../NavBar/NavBar';
+import NavBar from '../NavBar_LS/NavBar';
 import saved_icon from '../images/saved_icon.png';
 import upload_icon from '../images/upload_icon.png'
 
