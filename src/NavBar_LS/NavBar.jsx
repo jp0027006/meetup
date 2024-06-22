@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import search_icon from "../images/search_icon.png";
-import logo from "../images/meetup_logo.png";
+import logo from "../images/meetup_logo_mobile.png";
 import world_icon from "../images/world.png";
 
 function NavBar() {
@@ -10,7 +10,7 @@ function NavBar() {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand me-4" href="#">
-            <img src={logo} alt="Meetup" width="100" height="100" />
+            <img src={logo} alt="Meetup" width="100%" height="100%" />
           </a>
           <form className="d-flex me-auto form_search" role="search">
             <div className="form-control search_sec_1">
@@ -59,7 +59,7 @@ function NavBar() {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <button
-                  className="btn btn-link launguage_btn me-1"
+                  className="btn btn-link launguage_btn me-3"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal3"
                 >
@@ -70,7 +70,7 @@ function NavBar() {
               <li className="nav-item">
                 <button
                   type="button"
-                  className="btn btn-link login_btn me-2"
+                  className="btn btn-link login_btn me-3"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
                 >
