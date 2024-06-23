@@ -112,7 +112,7 @@ function See_all_events() {
 
         </div>
       </div>
-      <Footer className="footer_style_all_events"/>
+      <Footer/>
     </div>
   );
 }
