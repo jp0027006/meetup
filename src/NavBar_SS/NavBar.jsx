@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from 'react';
 import "./NavBar.css";
 import search_icon from "../images/search_icon.png";
 import logo from "../images/meetup_logo_mobile.png";
-import world_icon from "../images/world.png";
 
 function NavBar() {
+  const [isSearchSec2Visible, setSearchSec2Visible] = useState(false);
+
+  const handleSearchSec1Click = () => {
+    setSearchSec2Visible(!isSearchSec2Visible);
+  };
   return (
     <div className="NavBar_ss">
       <nav className="navbar">
@@ -529,24 +533,28 @@ function NavBar() {
         </div>
         
         <form className="me-auto form_search_ss" role="search">
-            <div className="form-control search_sec_1_ss">
-              <div className="search_sec_1_part1_ss">
-                <img
-                  src="https://secure.meetupstatic.com/next/images/design-system-icons/search-outline.svg"
-                  alt="S"
-                  height="100%"
-                  width="100%"
-                />
-              </div>
-              <div className="search_sec_1_part2">
-                <input
-                  className="search_filed"
-                  type="search"
-                  placeholder="Search events"
-                  aria-label="Search"
-                />
-              </div>
+          <div
+            className="form-control search_sec_1_ss"
+            onClick={handleSearchSec1Click}
+          >
+            <div className="search_sec_1_part1_ss">
+              <img
+                src="https://secure.meetupstatic.com/next/images/design-system-icons/search-outline.svg"
+                alt="S"
+                height="100%"
+                width="100%"
+              />
             </div>
+            <div className="search_sec_1_part2">
+              <input
+                className="search_filed"
+                type="search"
+                placeholder="Search events"
+                aria-label="Search"
+              />
+            </div>
+          </div>
+          {isSearchSec2Visible && (
             <div className="search_2_ss d-flex">
               <input
                 className="form-control search_sec_2_ss"
@@ -563,10 +571,14 @@ function NavBar() {
                 />
               </button>
             </div>
-          </form>
+          )}
+        </form>
+
+
       </nav>
     </div>
   )
+
 }
 
 export default NavBar;
