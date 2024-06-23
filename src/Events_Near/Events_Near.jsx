@@ -43,6 +43,9 @@ function Events_Near() {
           <DisplayData key={event.id} event={event} />
         ))}
       </div>
+      <Link to="/See_all_events" className="see_all_event_link_mobile">
+          See all events
+        </Link>
     </div>
   );
 }

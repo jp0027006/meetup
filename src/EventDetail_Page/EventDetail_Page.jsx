@@ -44,12 +44,14 @@ const EventDetail_Page = () => {
                     <div className="footer_sections_1">
                         <div className="footer_sections_date">{event.UE_Time_Date}</div>
                         <div className="footer_sections_name">{event.UE_Name}</div>
+                        <div className="footer_sections_m_cost">{event.UE_price}</div>
+                        <div className="footer_sections_m_attende">{event.UE_Visitor}</div>
                     </div>
                     <div className="footer_sections_2">
                         <div className="free_text me-3">FREE</div>
                         <div className="saved_icon me-3"> <img src={saved_icon} height="100%" width="100%"/> </div>
-                        <button className='share_btn me-3'>Share <img src={upload_icon} height="100%" width="100%"  /> </button>
-                        <button className='attend_btn me-3'>Attend</button>
+                        <button className='share_btn'> <span className="share_text"> Share </span><img src={upload_icon} height="100%" width="100%"  /> </button>
+                        <button className='attend_btn'>Attend</button>
                     </div>
                 </div>
             </div>
