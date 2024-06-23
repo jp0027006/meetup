@@ -28,6 +28,7 @@
  .event_near_btn_img{
     display: flex;
     margin-left: 4.5%;
+    margin-top: 0.2rem;
     justify-content: center;
  }
 h2{
@@ -65,9 +66,10 @@ h2{
         margin-top: 5vh;
     }
     .event_header{
+        width: 100%;
         display: flex;
-        justify-content: start;
-        margin-bottom: 2vh;
+        justify-content: space-between;
+        margin-bottom: 1vh;
     }
     .event_near_btn{
         width: fit-content;
@@ -77,6 +79,7 @@ h2{
         background-color: #F2F9F9;
         font-weight: bold;
         margin-left: 0.5rem;
+        font-size: 1rem;
         letter-spacing: 0rem;
     }
     .event_near_btn:hover{
@@ -87,6 +90,7 @@ h2{
      .event_near_btn_img{
         display: flex;
         margin-left: 0%;
+        margin-top: 0rem;
         justify-content: center;
      }
     h2{

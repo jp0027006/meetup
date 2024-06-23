@@ -2,7 +2,6 @@ import React from "react";
 import "./NavBar.css";
 import search_icon from "../images/search_icon.png";
 import logo from "../images/meetup_logo_mobile.png";
-import world_icon from "../images/world.png";
 
 function NavBar() {
   return (
