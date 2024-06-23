@@ -1,5 +1,6 @@
 import React from 'react';
-import NavBar from '../NavBar_LS/NavBar'
+import NavBar_LS from '../NavBar_LS/NavBar'
+import NavBar_SS from '../NavBar_SS/NavBar'
 import './See_all_events.css'
 import Footer from '../Footer/Footer'
 import AppData from '../AppData.json'
@@ -9,7 +10,12 @@ import open_map from '../images/open_map.png'
 function See_all_events() {
   return (
     <div className="See_all_events">
-      <NavBar />
+      <div className="navbar_LS">
+        <NavBar_LS />        
+      </div>
+      <div className="navbar_SS">
+        <NavBar_SS />        
+      </div>
       <div className="See_all_events_body">
         <div className="See_all_events_sub">
             <h3>Events near Ahmedabad, IN</h3>

@@ -534,6 +534,8 @@ function NavBar() {
                 <img
                   src="https://secure.meetupstatic.com/next/images/design-system-icons/search-outline.svg"
                   alt="S"
+                  height="100%"
+                  width="100%"
                 />
               </div>
               <div className="search_sec_1_part2">

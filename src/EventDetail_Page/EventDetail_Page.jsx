@@ -2,9 +2,11 @@ import React from 'react';
 import './EventDetail_Page.css'
 import { useParams } from 'react-router-dom';
 import AppData from '../AppData.json';
-import NavBar from '../NavBar_LS/NavBar';
+import NavBar_LS from '../NavBar_LS/NavBar'
+import NavBar_SS from '../NavBar_SS/NavBar'
 import saved_icon from '../images/saved_icon.png';
 import upload_icon from '../images/upload_icon.png'
+
 
 const EventDetail_Page = () => {
     const { id } = useParams();
@@ -17,7 +19,12 @@ const EventDetail_Page = () => {
 
     return (
         <div className="EventDetail_Page">
-            <NavBar />
+            <div className="navbar_LS">
+                <NavBar_LS />        
+            </div>
+            <div className="navbar_SS">
+                <NavBar_SS />        
+            </div>
             <div className="name_hostedBy">
                 <div className="name_hostedBy_Sub">
                     <h2 className='event_name'>{event.UE_Name}</h2>  
