@@ -130,7 +130,7 @@ function Footer() {
           <div>
             <div>Follow us</div>
             <div className="footer_main_part3_b mt-3">
-              <a href="/" className="footer_main_part3_b_i">
+              <a href="https://www.facebook.com/meetup/" className="footer_main_part3_b_i"  target="_blank">
                 <svg
                   data-swarm-icon="true"
                   height="28"
@@ -141,7 +141,7 @@ function Footer() {
                   <path d="M26.5 14c0-6.904-5.596-12.5-12.5-12.5S1.5 7.096 1.5 14c0 6.24 4.571 11.41 10.547 12.348v-8.735H8.873V14h3.174v-2.754c0-3.133 1.866-4.863 4.721-4.863 1.368 0 2.798.244 2.798.244v3.076H17.99c-1.553 0-2.037.964-2.037 1.952V14h3.467l-.554 3.613h-2.913v8.735C21.93 25.41 26.5 20.24 26.5 14"></path>
                 </svg>
               </a>
-              <a href="/" className="footer_main_part3_b_i">
+              <a href="https://x.com/Meetup/" className="footer_main_part3_b_i"  target="_blank">
                 <svg
                   data-swarm-icon="true"
                   height="28"
@@ -152,7 +152,7 @@ function Footer() {
                   <path d="M9.167 24.641c9.811 0 15.18-8.136 15.18-15.18 0-.228 0-.457-.01-.686A10.869 10.869 0 0027 6.007c-.957.427-1.987.708-3.07.843a5.368 5.368 0 002.352-2.955 10.612 10.612 0 01-3.392 1.29A5.325 5.325 0 0019 3.5a5.342 5.342 0 00-5.338 5.337c0 .417.052.822.135 1.218C9.365 9.836 5.432 7.703 2.8 4.478a5.336 5.336 0 00-.718 2.684 5.35 5.35 0 002.372 4.443 5.396 5.396 0 01-2.414-.666v.073a5.346 5.346 0 004.277 5.233 5.201 5.201 0 01-1.405.187c-.343 0-.676-.03-.999-.093a5.335 5.335 0 004.984 3.704 10.7 10.7 0 01-6.628 2.289c-.426 0-.853-.021-1.269-.073a15.176 15.176 0 008.167 2.382"></path>
                 </svg>
               </a>
-              <a href="/" className="footer_main_part3_b_i">
+              <a href="https://www.youtube.com/meetup" className="footer_main_part3_b_i"  target="_blank">
                 <svg
                   data-swarm-icon="true"
                   height="28"
@@ -163,7 +163,7 @@ function Footer() {
                   <path d="M14.34 5c1.56.008 8.039.066 9.818.543 1.119.299 2 1.18 2.299 2.298C27 9.87 27 14.1 27 14.1v.01c0 .23-.016 4.278-.543 6.248a3.256 3.256 0 01-2.299 2.298c-1.82.488-8.562.538-9.92.543h-.477c-1.357-.005-8.099-.055-9.92-.543a3.256 3.256 0 01-2.298-2.298c-.481-1.796-.536-5.32-.542-6.102v-.313c.006-.782.06-4.305.542-6.102.3-1.118 1.18-2 2.299-2.298C5.622 5.066 12.1 5.008 13.66 5zm-2.94 5.2V18l6.755-3.9-6.755-3.9z"></path>
                 </svg>
               </a>
-              <a href="/" className="footer_main_part3_b_i">
+              <a href="https://www.instagram.com/meetup/" className="footer_main_part3_b_i"  target="_blank">
                 <svg
                   data-swarm-icon="true"
                   height="28"
@@ -178,10 +178,10 @@ function Footer() {
           </div>
           <a href="/" className="footer_main_part3_3">
             <div className="footer_main_part3_4">
-              <img className="footer_main_part3_4_img" src={google} alt="Google Play Store" />
+              <a href="https://play.google.com/store/apps/details?id=com.meetup&hl=en-US" target="_blank"> <img className="footer_main_part3_4_img" src={google} alt="Google Play Store" /> </a>
             </div>
             <div className="footer_main_part3_4">
-              <img className="footer_main_part3_4_img" src={apple} alt="Apple App Store" />
+              <a href="https://apps.apple.com/us/app/meetup-social-events-groups/id375990038" target="_blank"><img className="footer_main_part3_4_img" src={apple} alt="Apple App Store" /></a>
             </div>
           </a>
         </div>

@@ -129,9 +129,10 @@
     }
     .EventDetail_Page_body{
         width: 90%;
-        height: 100vh;
+        height: fit-content;
         margin: auto 5%;
         padding-top: 1.5rem;
+        padding-bottom: 6.5rem;
     }
     .name_hostedBy{
         width: 100%;
