@@ -6,6 +6,7 @@ import NavBar_LS from '../NavBar_LS/NavBar'
 import NavBar_SS from '../NavBar_SS/NavBar'
 import saved_icon from '../images/saved_icon.png';
 import upload_icon from '../images/upload_icon.png'
+import Footer  from '../Footer/Footer';
 
 
 const EventDetail_Page = () => {
@@ -62,6 +63,7 @@ const EventDetail_Page = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };

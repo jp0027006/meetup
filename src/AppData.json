@@ -122,5 +122,32 @@
             "UE_Visitor": "30 going",
             "UE_price": "Free"
         }
+    ],
+    "Cities": [
+        {
+            "id": "New_York",
+            "CityName": "New York",
+            "CityInfo": "Find events in New York to connect with people who share your interests. Whatever your interest, Meetup helps you connect with like-minded people."
+        },
+        {
+            "id": "San_Francisco",
+            "CityName": "San Francisco",
+            "CityInfo": "Find events in San Francisco to connect with people who share your interests. Whatever your interest, Meetup helps you connect with like-minded people."
+        },
+        {
+            "id": "Chicago",
+            "CityName": "Chicago",
+            "CityInfo": "Find events in Chicago to connect with people who share your interests. Whatever your interest, Meetup helps you connect with like-minded people."
+        },
+        {
+            "id": "Nashville",
+            "CityName": "Nashville",
+            "CityInfo": "Nashville is known as the \"Music City\" and is an eclectic town known for country music, delightful barbeque, and friendly local culture. The city offers a plethora of opportunities for exploration, culinary delights, and cultural experiences."
+        },
+        {
+            "id": "Miami",
+            "CityName": "Miami",
+            "CityInfo": "Miami, often referred to as the \"Magic City\" is renowned for its world-renowned art scene, vibrant culture, and legendary nightlife. Miami is known for its Caribbean and Latin American influences in everything from its cuisine to its architecture."
+        }
     ]
 }

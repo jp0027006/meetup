@@ -4,6 +4,7 @@ import san_francisco from "../images/cities/san_francisco.webp";
 import chicago from "../images/cities/chicago.webp";
 import nashville from "../images/cities/nashville.webp";
 import miami from "../images/cities/miami.webp";
+import { Link } from 'react-router-dom';
 
 function Cities() {
   return (
@@ -14,26 +15,36 @@ function Cities() {
         planning in cities around the country.
       </p>
       <div className="Cities-main">
-        <a className="cities_sec text-center" href="#">
-          <img className="city_img" src={new_york} alt="new_york" height="100%" width="100%" />
-          <h3 className="country_name">New York</h3>
-        </a>
-        <a className="cities_sec text-center" href="#">
-          <img className="city_img" src={san_francisco} alt="san_francisco"  height="100%" width="100%" />
-          <h3 className="country_name">San Francisco</h3>
-        </a>
-        <a className="cities_sec text-center" href="#">
-          <img className="city_img" src={chicago} alt="chicago" height="100%" width="100%"  />
-          <h3 className="country_name">Chicago</h3>
-        </a>
-        <a className="cities_sec text-center" href="#">
-          <img className="city_img" src={nashville} alt="nashville" height="100%" width="100%"  />
-          <h3 className="country_name">Nashville</h3>
-        </a>
-        <a className="cities_sec text-center" href="#">
-          <img className="city_img" src={miami} alt="miami" height="100%" width="100%"  />
-          <h3 className="country_name">Miami</h3>
-        </a>
+        <Link to={`/Cities/New_York`}> 
+            <a className="cities_sec text-center" href="#">
+              <img className="city_img" src={new_york} alt="new_york" height="100%" width="100%" />
+              <h3 className="country_name">New York</h3>
+            </a>
+        </Link>
+        <Link to={`/Cities/New_York`}> 
+            <a className="cities_sec text-center" href="#">
+              <img className="city_img" src={san_francisco} alt="san_francisco"  height="100%" width="100%" />
+              <h3 className="country_name">San Francisco</h3>
+            </a>
+        </Link>
+        <Link to={`/Cities/New_York`}> 
+            <a className="cities_sec text-center" href="#">
+              <img className="city_img" src={chicago} alt="chicago" height="100%" width="100%"  />
+              <h3 className="country_name">Chicago</h3>
+            </a>
+        </Link>
+        <Link to={`/Cities/New_York`}> 
+            <a className="cities_sec text-center" href="#">
+              <img className="city_img" src={nashville} alt="nashville" height="100%" width="100%"  />
+              <h3 className="country_name">Nashville</h3>
+            </a>
+        </Link>
+        <Link to={`/Cities/New_York`}> 
+            <a className="cities_sec text-center" href="#">
+              <img className="city_img" src={miami} alt="miami" height="100%" width="100%"  />
+              <h3 className="country_name">Miami</h3>
+            </a>
+        </Link>
       </div>
       <div className="mt-5">
   <h2>How Meetup works</h2>
