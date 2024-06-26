@@ -21,25 +21,25 @@ function Cities() {
               <h3 className="country_name">New York</h3>
             </a>
         </Link>
-        <Link to={`/Cities/New_York`}> 
+        <Link to={`/Cities/San_Francisco`}> 
             <a className="cities_sec text-center" href="#">
               <img className="city_img" src={san_francisco} alt="san_francisco"  height="100%" width="100%" />
               <h3 className="country_name">San Francisco</h3>
             </a>
         </Link>
-        <Link to={`/Cities/New_York`}> 
+        <Link to={`/Cities/Chicago`}> 
             <a className="cities_sec text-center" href="#">
               <img className="city_img" src={chicago} alt="chicago" height="100%" width="100%"  />
               <h3 className="country_name">Chicago</h3>
             </a>
         </Link>
-        <Link to={`/Cities/New_York`}> 
+        <Link to={`/Cities/Nashville`}> 
             <a className="cities_sec text-center" href="#">
               <img className="city_img" src={nashville} alt="nashville" height="100%" width="100%"  />
               <h3 className="country_name">Nashville</h3>
             </a>
         </Link>
-        <Link to={`/Cities/New_York`}> 
+        <Link to={`/Cities/Miami`}> 
             <a className="cities_sec text-center" href="#">
               <img className="city_img" src={miami} alt="miami" height="100%" width="100%"  />
               <h3 className="country_name">Miami</h3>

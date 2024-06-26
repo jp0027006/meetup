@@ -127,27 +127,52 @@
         {
             "id": "New_York",
             "CityName": "New York",
+            "CityPhoto": "NewYork_Details.png" ,
             "CityInfo": "Find events in New York to connect with people who share your interests. Whatever your interest, Meetup helps you connect with like-minded people."
         },
         {
             "id": "San_Francisco",
             "CityName": "San Francisco",
+            "CityPhoto": "Sanfrancisco_Details.webp" ,
             "CityInfo": "Find events in San Francisco to connect with people who share your interests. Whatever your interest, Meetup helps you connect with like-minded people."
         },
         {
             "id": "Chicago",
             "CityName": "Chicago",
+            "CityPhoto": "Chicago_Details.webp" ,
             "CityInfo": "Find events in Chicago to connect with people who share your interests. Whatever your interest, Meetup helps you connect with like-minded people."
         },
         {
             "id": "Nashville",
             "CityName": "Nashville",
+            "CityPhoto": "Nashville_Details.webp" ,
             "CityInfo": "Nashville is known as the \"Music City\" and is an eclectic town known for country music, delightful barbeque, and friendly local culture. The city offers a plethora of opportunities for exploration, culinary delights, and cultural experiences."
         },
         {
             "id": "Miami",
             "CityName": "Miami",
+            "CityPhoto": "Miami_Details.webp" ,
             "CityInfo": "Miami, often referred to as the \"Magic City\" is renowned for its world-renowned art scene, vibrant culture, and legendary nightlife. Miami is known for its Caribbean and Latin American influences in everything from its cuisine to its architecture."
+        }
+    ],
+    "Friendships": [
+        {
+            "id": "first_article",
+            "Friends_image": "first_article.webp",
+            "Friends_title": "I Used Meetup to Make Friends at Brunch",
+            "Friends_info": "New Jersey-based writer and college student Brianna Stryker wanted to meet friends in her hometown. Learn how she used Meetup to make connections by joining a Girls Night Out Meetup group."
+        },
+        {
+            "id": "second_article",
+            "Friends_image": "second_article.webp",
+            "Friends_title": "How to Turn Casual Connections into Close Friendships",
+            "Friends_info": "It's proven that close friendships are harder to make as an adult. But don't sweat it: here's what you can do to simplify the process."
+        },
+        {
+            "id": "third_article",
+            "Friends_image": "third_article.webp",
+            "Friends_title": "Do You Have the “Right” Number of Friends?",
+            "Friends_info": "Studies from around the world have tried to help people answer this question. Learn about the three tiers of friendship and how to fulfill them."
         }
     ]
 }

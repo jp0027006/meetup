@@ -1,10 +1,15 @@
 .frienship-main{
-    column-gap: 0%;
     display: flex;
     justify-content: space-between;
+    margin-top: 1.5rem;
 }
 .frienship_sec{
-    width: 31.5%;
+    width: 23rem;
+}
+.Friendships_Module{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .frienship_sec:hover .blog_image{
     opacity: 0.8;

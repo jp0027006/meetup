@@ -44,7 +44,7 @@
 
 .search_sec_1_part1 {
   width: 12%;
-  padding-top: 1%;
+  padding-top: 0.5rem;
   padding-left: 2%;
 }
 .search_sec_1_part1 > img {
@@ -74,7 +74,7 @@
 .search_btn{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    padding: 0.5% 2% 2.5% 2%;
+    padding: 0.4rem 0.6rem 0.6rem 0.6rem;
     width: 8%;
     background-color: #F65858;
 }
@@ -93,7 +93,7 @@
   text-decoration: none;
 }
 .launguage_btn > img {
-  margin-bottom: 3%;
+  margin-bottom: 1%;
   padding-right: 0.25rem;
 }
 .launguage_btn:hover {

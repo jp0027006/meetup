@@ -1,0 +1,92 @@
+/* Footer.FDF_css */
+.FDF_footer {
+    background-color: #F3F1ED;
+  }
+  
+  .FDF_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .FDF_footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .FDF_footer-section {
+    width: 20%;
+    margin-bottom: 30px;
+  }
+  
+  .FDF_footer-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .FDF_footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .FDF_footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .FDF_footer-section a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .FDF_footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .FDF_social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .FDF_social-icons li {
+    margin-right: 10px;
+  }
+  
+  .FDF_social-icons a {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .FDF_social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .FDF_footer-legal {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #E5E0D8;
+  }
+  
+  .FDF_footer-legal a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .FDF_footer-legal a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .FDF_footer-section {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .FDF_footer-section {
+      width: 100%;
+    }
+  }

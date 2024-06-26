@@ -6,6 +6,7 @@ import See_all_events from "./See_all_events/See_all_events";
 import Events_Near from "./Events_Near/Events_Near";
 import ScrollToTop from './ScrollToTop';
 import CitiesDetail_Page from './CitiesDetail_Page/CitiesDetail_Page'
+import Friendships_Details from "./Friendships_Details/Friendships_Details";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/See_all_events" element={<See_all_events />} />
           <Route path="/events-near/:id" element={<EventDetail_Page />} />
           <Route path="/Cities/:id" element={<CitiesDetail_Page />} />
+          <Route path="/Friendships/:id" element={<Friendships_Details />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -6,7 +6,7 @@ import logo from "../images/meetup_logo_mobile.png";
 function NavBar() {
   return (
     <div className="NavBar">
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar  navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand me-4" href="#">
             <img src={logo} alt="Meetup" width="100%" height="100%" />

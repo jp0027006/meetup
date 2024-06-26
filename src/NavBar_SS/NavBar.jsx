@@ -11,7 +11,7 @@ function NavBar() {
   };
   return (
     <div className="NavBar_ss">
-      <nav className="navbar">
+      <nav className="navbar navbar_ss">
         <div className="container-fluid container_fluid_SS">
           <a className="navbar_brand_ss" href="#">
             <img src={logo} alt="Meetup" width="100%" height="100%" />
