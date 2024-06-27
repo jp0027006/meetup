@@ -57,6 +57,7 @@
 .search_filed {
   margin-top: 0.05rem;
   height: 2.4rem;
+  background-color: transparent;
   width: 100%;
   border: 0 transparent solid;
 }
