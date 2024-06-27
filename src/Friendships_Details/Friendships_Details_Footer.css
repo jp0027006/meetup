@@ -1,44 +1,52 @@
 /* Footer.FDF_css */
 .FDF_footer {
     background-color: #F3F1ED;
+    height: 16.75rem;
   }
   
   .FDF_container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+    width: 100%;
   }
   
   .FDF_footer-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    height: 13rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: center;
   }
   
   .FDF_footer-section {
-    width: 20%;
-    margin-bottom: 30px;
+    height: 7rem;
+    width: fit-content;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: red;
   }
   
   .FDF_footer-section h3 {
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 15px;
+    width: fit-content;
+    background-color: #00798A;
   }
   
   .FDF_footer-section ul {
     list-style: none;
     padding: 0;
+    width: fit-content;
+    background-color: #007bff;
   }
   
-  .FDF_footer-section li {
-    margin-bottom: 5px;
-  }
-  
+
   .FDF_footer-section a {
     color: #333;
-    text-decoration: none;
+  }
+  
+  .footer_part1_sec1{
+    color: #00798A;
   }
   
   .FDF_footer-section a:hover {
@@ -51,10 +59,22 @@
   }
   
   .FDF_social-icons li {
-    margin-right: 10px;
+    margin-right: 15px;
+    height: 3rem;
+    width: 3rem;
+    border: 1px black solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .FDF_social-icons a {
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #333;
     font-size: 20px;
   }
@@ -64,14 +84,23 @@
   }
   
   .FDF_footer-legal {
-    text-align: center;
-    margin-top: 30px;
+    height: 3.75rem;
     background-color: #E5E0D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .FDF_footer-legal a {
     color: #333;
     text-decoration: none;
+    font-size: 1.1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .standing_line{
+    color: #c5c4c4;
   }
   
   .FDF_footer-legal a:hover {

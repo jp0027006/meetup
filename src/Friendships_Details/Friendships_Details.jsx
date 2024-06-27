@@ -11,7 +11,7 @@ const Friendships_Details = () => {
 
     return(
         <div className="Friendships_Details">
-            <p>{friendships.Friends_title}</p>
+            <div>{friendships.Friends_title}</div>
             <div className="FDF">
                 <Friendships_Details_Footer />
             </div>

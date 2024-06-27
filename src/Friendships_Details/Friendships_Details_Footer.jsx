@@ -11,9 +11,9 @@ const Friendships_Details_Footer = () => {
           <div className="FDF_footer-section">
             <h3>Do more of what you love</h3>
             <ul>
-              <li><a href="#">Find an event</a></li>
-              <li><a href="#">Start a group</a></li>
-              <li><a href="#">Get the app</a></li>
+              <li><a href="#" className='footer_part1_sec1'>Find an event</a></li>
+              <li><a href="#" className='footer_part1_sec1'>Start a group</a></li>
+              <li><a href="#" className='footer_part1_sec1'>Get the app</a></li>
             </ul>
           </div>
           <div className="FDF_footer-section">
@@ -40,11 +40,11 @@ const Friendships_Details_Footer = () => {
           </div>
         </div>
         <div className="FDF_footer-legal">
-          <p>
-            <a href="#">Terms of Service</a> | 
-            <a href="#">Privacy Policy</a> | 
+            <a href="#">Terms of Service</a>  
+              <div className="standing_line">|</div>
+            <a href="#">Privacy Policy</a> 
+              <div className="standing_line">|</div>
             <a href="#">Cookie Policy</a>
-          </p>
         </div>
       </div>
     </div>
