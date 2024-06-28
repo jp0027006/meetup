@@ -2,9 +2,12 @@ import React from 'react';
 import './EventDetail_Page.css'
 import { useParams } from 'react-router-dom';
 import AppData from '../AppData.json';
-import NavBar from '../NavBar/NavBar';
+import NavBar_LS from '../NavBar_LS/NavBar'
+import NavBar_SS from '../NavBar_SS/NavBar'
 import saved_icon from '../images/saved_icon.png';
 import upload_icon from '../images/upload_icon.png'
+import Footer  from '../Footer/Footer';
+
 
 const EventDetail_Page = () => {
     const { id } = useParams();
@@ -17,7 +20,12 @@ const EventDetail_Page = () => {
 
     return (
         <div className="EventDetail_Page">
-            <NavBar />
+            <div className="navbar_LS">
+                <NavBar_LS />        
+            </div>
+            <div className="navbar_SS">
+                <NavBar_SS />        
+            </div>
             <div className="name_hostedBy">
                 <div className="name_hostedBy_Sub">
                     <h2 className='event_name'>{event.UE_Name}</h2>  
@@ -44,15 +52,18 @@ const EventDetail_Page = () => {
                     <div className="footer_sections_1">
                         <div className="footer_sections_date">{event.UE_Time_Date}</div>
                         <div className="footer_sections_name">{event.UE_Name}</div>
+                        <div className="footer_sections_m_cost">{event.UE_price}</div>
+                        <div className="footer_sections_m_attende">{event.UE_Visitor}</div>
                     </div>
                     <div className="footer_sections_2">
                         <div className="free_text me-3">FREE</div>
                         <div className="saved_icon me-3"> <img src={saved_icon} height="100%" width="100%"/> </div>
-                        <button className='share_btn me-3'>Share <img src={upload_icon} height="100%" width="100%"  /> </button>
-                        <button className='attend_btn me-3'>Attend</button>
+                        <button className='share_btn'> <span className="share_text"> Share </span><img src={upload_icon} height="100%" width="100%"  /> </button>
+                        <button className='attend_btn'>Attend</button>
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };

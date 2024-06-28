@@ -33,3 +33,9 @@ p{
 .Signup_btn:hover{
     background-color: #e63a6a;
 }
+
+@media only screen and (max-width: 400px) {
+    .JoinMeetUp_Signup{
+        display: none;
+    }
+}

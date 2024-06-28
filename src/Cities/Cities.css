@@ -1,9 +1,9 @@
-div > p {
-  --tw-text-opacity: 1;
+ div > p {
   color: rgb(112 112 112 / var(--tw-text-opacity));
 }
 .Cities-main {
-  column-gap: 3.5%;
+  display: flex;
+  justify-content: space-between;
 }
 .cities_sec:hover {
   text-decoration: underline !important;
@@ -17,17 +17,24 @@ a > h3 {
   line-height: 1.75rem;
 }
 .city_img {
-  border-radius: 9999px;
+  border-radius: 50%;
+  margin-top: 1rem;
+  height: 13rem;
+}
+.country_name{
+  margin-top: 1rem;
 }
 .row {
-  gap: 3%;
+  gap: 0%;
+  display: flex;
+  justify-content: space-between;
 }
 .col {
   background-color: rgba(151, 202, 209, 0.08);
   border-radius: 0.5rem;
-  padding: 1.5rem;
-  padding-top: 2rem;
-  padding-right: 7rem;
+  width: 49%;
+  padding: 2rem 7rem 2rem 1.5rem;
+  height: fit-content;
 }
 .col:hover{
     background-color: rgba(151, 202, 209, .12) !important;
@@ -45,4 +52,74 @@ span {
   --tw-text-opacity: 1;
   color: rgb(0 121 138 / var(--tw-text-opacity));
   font-weight: 500;
+}
+
+@media only screen and (max-width: 400px) {
+    div > p {
+      --tw-text-opacity: 1;
+      color: rgb(112 112 112 / var(--tw-text-opacity));
+    }
+    .Cities-main {
+      column-gap: 0%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .cities_sec{
+      width: 30%;
+      height: initial;
+      margin-top: 1vh;
+    }
+    .cities_sec:hover {
+      text-decoration: underline !important;
+    }
+    .cities_sec:hover .city_img{
+      opacity: 0.8;
+    }
+    a > h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0;
+    }
+    .city_img {
+      border-radius: 50%;
+      width: 100%;
+      margin: 0;
+      height: 6.75rem;
+    }
+    .country_name{
+      padding: 0;
+      margin-top: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .row {
+      gap: 10%;
+    }
+    .col {
+      width: 100%;
+      background-color: rgba(151, 202, 209, 0.08);
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      padding-top: 1.5rem;
+      padding-right: 0rem;
+    }
+    .col:hover{
+        background-color: rgba(151, 202, 209, .12) !important;
+    }
+    .detail {
+      flex:  0 0%;
+      margin-left: -5%;
+    }
+    h5 {
+      font-size: 20px;
+      line-height: 1.5rem;
+      font-weight: 700;
+    }
+    span {
+      --tw-text-opacity: 1;
+      color: rgb(0 121 138 / var(--tw-text-opacity));
+      font-weight: 500;
+    }
 }

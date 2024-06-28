@@ -2,3 +2,20 @@
     width: 75rem;
     margin: 10vh auto 10vh auto;
 }
+.navbar_LS{
+}
+.navbar_SS{
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+    .parent_component{
+        width: 90%;
+        margin: 1rem 5% 0 5%;
+    }
+    .navbar_LS{
+        display: none;
+    }
+    .navbar_SS{
+        display: unset;
+    }
+}

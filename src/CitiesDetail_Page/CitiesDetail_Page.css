@@ -1,0 +1,32 @@
+.Events_In_City{
+    width: 100%;
+    height: 30rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F7F7F8;
+}
+.Events_In_City_sub{
+    width: 71rem;
+    display: flex;
+}
+.Events_In_City_part1{
+    width: 36rem;  
+    padding-right: 7rem; 
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.City_D_name{
+    color: #00798A;
+    font-weight: bolder;
+}
+.City_D_info{
+    color: #525253;
+}
+.Events_In_City_part2{
+    height: 20rem;
+    width: 35rem;   
+}

@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home_Page />} />
           <Route path="/See_all_events" element={<See_all_events />} />

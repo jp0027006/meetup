@@ -1,76 +1,35 @@
-import React from "react";
+import React, { useState } from 'react';
 import "./NavBar.css";
 import search_icon from "../images/search_icon.png";
-import logo from "../images/meetup_logo.png";
-import world_icon from "../images/world.png";
+import logo from "../images/meetup_logo_mobile.png";
 
 function NavBar() {
+  const [isSearchSec2Visible, setSearchSec2Visible] = useState(false);
+
+  const handleSearchSec1Click = () => {
+    setSearchSec2Visible(!isSearchSec2Visible);
+  };
   return (
-    <div className="NavBar">
-      <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid">
-          <a className="navbar-brand me-4" href="#">
-            <img src={logo} alt="Bootstrap" width="100" height="100" />
+    <div className="NavBar_ss">
+      <nav className="navbar navbar_ss">
+        <div className="container-fluid container_fluid_SS">
+          <a className="navbar_brand_ss" href="#">
+            <img src={logo} alt="Meetup" width="100%" height="100%" />
           </a>
-          <form className="d-flex me-auto form_search" role="search">
-            <div className="form-control search_sec_1">
-              <div className="search_sec_1_part1">
-                <img
-                  src="https://secure.meetupstatic.com/next/images/design-system-icons/search-outline.svg"
-                  alt="S"
-                />
-              </div>
-              <div className="search_sec_1_part2">
-                <input
-                  className="search_filed"
-                  type="search"
-                  placeholder="Search events"
-                  aria-label="Search"
-                />
-              </div>
-            </div>
-            <input
-              className="form-control search_sec_2"
-              type="search"
-              placeholder="Ahmedabad, IN"
-              aria-label="Search"
-            />
-            <button className="btn search_btn" type="submit">
-              <img
-                src={search_icon}
-                alt="icon_not_found"
-                height="100%"
-                width="100%"
-              />
-            </button>
-          </form>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul className="navbar_ss_btn">
               <li className="nav-item">
                 <button
-                  className="btn btn-link launguage_btn me-1"
+                  className="btn btn-link launguage_btn_ss"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal3"
                 >
                   <img src="https://secure.meetupstatic.com/next/images/design-system-icons/globe-outline.svg" />
-                  English
                 </button>
               </li>
               <li className="nav-item">
                 <button
                   type="button"
-                  className="btn btn-link login_btn me-2"
+                  className="btn btn-link login_btn"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
                 >
@@ -88,7 +47,6 @@ function NavBar() {
                 </button>
               </li>
             </ul>
-          </div>
 
           {/* Language modal */}
           <div
@@ -573,9 +531,54 @@ function NavBar() {
             </div>
           </div>
         </div>
+        
+        <form className="me-auto form_search_ss" role="search">
+          <div
+            className="form-control search_sec_1_ss"
+            onClick={handleSearchSec1Click}
+          >
+            <div className="search_sec_1_part1_ss">
+              <img
+                src="https://secure.meetupstatic.com/next/images/design-system-icons/search-outline.svg"
+                alt="S"
+                height="100%"
+                width="100%"
+              />
+            </div>
+            <div className="search_sec_1_part2">
+              <input
+                className="search_filed"
+                type="search"
+                placeholder="Search events"
+                aria-label="Search"
+              />
+            </div>
+          </div>
+          {isSearchSec2Visible && (
+            <div className="search_2_ss d-flex">
+              <input
+                className="form-control search_sec_2_ss"
+                type="search"
+                placeholder="Ahmedabad, IN"
+                aria-label="Search"
+              />
+              <button className="btn search_btn_ss" type="submit">
+                <img
+                  src={search_icon}
+                  alt="icon_not_found"
+                  height="60%"
+                  width="60%"
+                />
+              </button>
+            </div>
+          )}
+        </form>
+
+
       </nav>
     </div>
-  );
+  )
+
 }
 
 export default NavBar;

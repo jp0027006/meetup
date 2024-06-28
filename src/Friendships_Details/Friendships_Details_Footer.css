@@ -1,0 +1,139 @@
+/* Footer.FDF_css */
+.FDF_footer {
+    background-color: #F3F1ED;
+    height: 16.75rem;
+  }
+  
+  .FDF_container {
+    width: 100%;
+  }
+  
+  .FDF_footer-content {
+    display: flex;
+    height: 13rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: center;
+  }
+  
+  .FDF_footer-section {
+    height: 7rem;
+    width: fit-content;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .FDF_footer-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    width: fit-content;
+    margin-bottom: 0.5rem;
+  }
+  
+  .FDF_footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    height: 100%;
+  }
+
+.FDF_sec2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #333;
+}
+  .FDF_footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .FDF_social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .FDF_social-icons li {
+    margin-right: 15px;
+    height: 3rem;
+    width: 3rem;
+    border: 1px black solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .FDF_social-icons a {
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .FDF_social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .FDF_footer-legal {
+    height: 3.75rem;
+    background-color: #E5E0D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .FDF_footer-legal a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .standing_line{
+    color: #c5c4c4;
+  }
+  
+  .FDF_footer-legal a:hover {
+    text-decoration: underline;
+  }
+  
+  .FDF_sec_to_flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .FDF_sec1_text{
+      color: #00798A;
+      font-size: 1.1rem;
+  }
+  .FDF_sec_to_flex .standing_line{
+    
+    height: fit-content;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    color: #00798A;
+  }
+
+.FDF_sec2_sec3{
+  margin-right: 4rem;
+}
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .FDF_footer-section {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .FDF_footer-section {
+      width: 100%;
+    }
+  }

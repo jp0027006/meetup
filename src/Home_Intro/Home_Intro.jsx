@@ -22,7 +22,7 @@ function Home_Intro() {
         </button>
       </div>
       <div className="Home_Intro_Sec_2">
-        <img src={home_intro_photo} alt="photo_not_found" />
+        <img src={home_intro_photo} alt="photo_not_found" height="100%" width='100%' />
       </div>
     </div>
   );

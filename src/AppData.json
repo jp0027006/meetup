@@ -105,7 +105,7 @@
         {
             "id": "daily",
             "UE_Photo": "daily.webp",
-            "UE_Name": "Daily Online workout, weight managements and fitness session (Evening Batch)",
+            "UE_Name": "Daily Online workout, weight managements and fitness session",
             "UE_HostedBy": "Ahmedabad Meetups! 🥳",
             "UE_Time_Date": "THU, JUN 13 · 6:30 PM IST",
             "UE_Details": "Stay fit and healthy with our daily online workout sessions. Hosted by Ahmedabad Meetups, these sessions are designed to cater to all fitness levels, offering a variety of exercises aimed at weight management and overall wellness. Join us every evening for a guided workout that will help you stay motivated and achieve your fitness goals. Connect with fellow fitness enthusiasts and enjoy the benefits of regular physical activity from the comfort of your home.",
@@ -115,12 +115,64 @@
         {
             "id": "microsoft",
             "UE_Photo": "microsoft.webp",
-            "UE_Name": "Join Us for Microsoft DevOps Mastery Webinar on AZ-400 Solution Design",
+            "UE_Name": "Join Us for Microsoft DevOps Mastery Webinar on AZ-400 Solution",
             "UE_HostedBy": "Azure Tech Community Gujarat",
             "UE_Time_Date": "SAT, JUN 15 · 10:00 AM IST",
             "UE_Details": "Enhance your DevOps skills with our Microsoft DevOps Mastery Webinar, focusing on AZ-400 Solution Design. Hosted by Azure Tech Community Gujarat, this webinar will provide in-depth insights into designing effective DevOps solutions using Microsoft Azure. Learn from industry experts about best practices, tools, and techniques to optimize your DevOps workflows and improve operational efficiency. This session is ideal for IT professionals, developers, and anyone looking to advance their knowledge in DevOps.",
             "UE_Visitor": "30 going",
             "UE_price": "Free"
+        }
+    ],
+    "Cities": [
+        {
+            "id": "New_York",
+            "CityName": "New York",
+            "CityPhoto": "NewYork_Details.png" ,
+            "CityInfo": "Find events in New York to connect with people who share your interests. Whatever your interest, Meetup helps you connect with like-minded people."
+        },
+        {
+            "id": "San_Francisco",
+            "CityName": "San Francisco",
+            "CityPhoto": "Sanfrancisco_Details.webp" ,
+            "CityInfo": "Find events in San Francisco to connect with people who share your interests. Whatever your interest, Meetup helps you connect with like-minded people."
+        },
+        {
+            "id": "Chicago",
+            "CityName": "Chicago",
+            "CityPhoto": "Chicago_Details.webp" ,
+            "CityInfo": "Find events in Chicago to connect with people who share your interests. Whatever your interest, Meetup helps you connect with like-minded people."
+        },
+        {
+            "id": "Nashville",
+            "CityName": "Nashville",
+            "CityPhoto": "Nashville_Details.webp" ,
+            "CityInfo": "Nashville is known as the \"Music City\" and is an eclectic town known for country music, delightful barbeque, and friendly local culture. The city offers a plethora of opportunities for exploration, culinary delights, and cultural experiences."
+        },
+        {
+            "id": "Miami",
+            "CityName": "Miami",
+            "CityPhoto": "Miami_Details.webp" ,
+            "CityInfo": "Miami, often referred to as the \"Magic City\" is renowned for its world-renowned art scene, vibrant culture, and legendary nightlife. Miami is known for its Caribbean and Latin American influences in everything from its cuisine to its architecture."
+        }
+    ],
+    "Friendships": [
+        {
+            "id": "first_article",
+            "Friends_image": "first_article.webp",
+            "Friends_title": "I Used Meetup to Make Friends at Brunch",
+            "Friends_info": "New Jersey-based writer and college student Brianna Stryker wanted to meet friends in her hometown. Learn how she used Meetup to make connections by joining a Girls Night Out Meetup group."
+        },
+        {
+            "id": "second_article",
+            "Friends_image": "second_article.webp",
+            "Friends_title": "How to Turn Casual Connections into Close Friendships",
+            "Friends_info": "It's proven that close friendships are harder to make as an adult. But don't sweat it: here's what you can do to simplify the process."
+        },
+        {
+            "id": "third_article",
+            "Friends_image": "third_article.webp",
+            "Friends_title": "Do You Have the “Right” Number of Friends?",
+            "Friends_info": "Studies from around the world have tried to help people answer this question. Learn about the three tiers of friendship and how to fulfill them."
         }
     ]
 }

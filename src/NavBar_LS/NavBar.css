@@ -1,8 +1,13 @@
 .navbar{
     padding-left: 1.3%;
     padding-right: 1%;
-    height: 4rem;
     background-color: white;
+    margin: 0;
+}
+.navbar-brand{
+  margin: 0;
+  height: 3.5rem;
+  width: 7rem;
 }
 .signup_btn{
     font-weight: bold;
@@ -39,7 +44,7 @@
 
 .search_sec_1_part1 {
   width: 12%;
-  padding-top: 1%;
+  padding-top: 0.5rem;
   padding-left: 2%;
 }
 .search_sec_1_part1 > img {
@@ -52,6 +57,7 @@
 .search_filed {
   margin-top: 0.05rem;
   height: 2.4rem;
+  background-color: transparent;
   width: 100%;
   border: 0 transparent solid;
 }
@@ -69,7 +75,7 @@
 .search_btn{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    padding: 0.5% 2% 2.5% 2%;
+    padding: 0.4rem 0.6rem 0.6rem 0.6rem;
     width: 8%;
     background-color: #F65858;
 }
@@ -88,7 +94,7 @@
   text-decoration: none;
 }
 .launguage_btn > img {
-  margin-bottom: 3%;
+  margin-bottom: 1%;
   padding-right: 0.25rem;
 }
 .launguage_btn:hover {

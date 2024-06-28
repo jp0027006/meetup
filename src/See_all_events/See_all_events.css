@@ -35,7 +35,6 @@
 }
 
 .custom_select select {
-    width: 100%;
     padding: 10px;/* Add padding to the right to make room for the arrow */
     font-size: 16px;
     border: 0px solid #ccc;
@@ -131,6 +130,7 @@ option{
 .see_all_events_location{
     width: 35%;
     height: 8rem;
+    margin-top: 0.75rem;
 }
 
 .event_render_section{
@@ -139,7 +139,218 @@ option{
 }
 
 .see_all_events_render{
-    background-color: rebeccapurple;
     width: 100%;
-    height: 10.5rem;
+    height: fit-content;
+}
+
+.map_sec{
+    background-color: white;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.75rem;
+    background-image: url('../images/blur-map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.browsmap_btn{
+    padding: 0.25rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #00798A;
+    border: 2px #00798A solid;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.browsmap_btn:hover{
+    background-color: #eff5f6;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .See_all_events_body{
+        border-top: 1px #E6E6E5 solid;
+        margin: 0;
+        width: 100%;
+    }
+    .See_all_events_sub{
+        width: 90%;
+        padding-top: 1.5rem;
+        margin: 0 auto;
+    }
+    .link_Events_Groups{
+        padding-top: 0.3rem;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .Events_link{
+        margin-right: 1rem;
+        color: #00798A;
+        border-bottom: 0.2rem #00798A solid; 
+    }
+    .Groups_link{
+        color: #707070;
+    }
+    .dropdown_section{
+        margin-top: 0rem;
+        display: flex;
+        overflow-x: scroll;
+    }
+    .custom_select {
+        position: relative;
+        display: inline-block;
+        background-color: #F6F7F8;
+        margin-right: 1.5rem;
+        border-radius: 30px;
+        margin-top: 1.25rem;
+        margin-bottom: 1rem;
+        padding: 0rem 0rem 0.2rem 0.3rem;
+    }
+    
+    .custom_select select {
+        padding: 10px;
+        width: 10rem;
+        font-size: 16px;
+        border: 0px solid #ccc;
+        border-radius: 5px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none; 
+        outline: none;
+        background: transparent;
+    }
+    
+    /* Custom arrow */
+    .custom_select::after {
+        content: '\25BC';
+        width: 1rem;
+        position: absolute;
+        right: 10px; /* Adjust right padding */
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none; /* Prevent the arrow from blocking select interactions */
+        font-size: 16px;
+        color: #333;
+    }
+    option{
+        background-color: white;
+        color: #828282;
+    }
+    .custom_select_1{
+        width: 7.5rem;
+    }
+    .custom_select_2{
+        width: 9.5rem;
+    }
+    .custom_select_3{
+        width: 12rem;
+        background-color: #00798A;
+    }
+    .custom_select_3::after{
+        color: white;
+
+    }
+    .custom_select_3 select{
+        color: white;
+    }
+    .custom_select_3 option{
+        color: black;
+    }
+    .day_dropdown{
+        background-color: red;
+    }
+    .Start_a_group{
+        height: 10rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        padding: 1.5rem 1.5%;
+        width: 95%;
+        font-weight: 600;
+        border-radius: 10px;
+        border: 1px #D9D9D9 solid;
+        display: none;
+    }
+    .Start_a_group_data{
+        display: flex;
+        margin-top: 1.2rem;
+        justify-content: space-between;
+    }
+    .Start_a_group_data_text{
+        width: 60%;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #797B6F;
+    }
+    .share_btn_see_all{
+        width: 25%;
+        height: 3rem;
+        background-color: white;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: #00798A;
+        font-size: 1rem;
+        border: 2px #00798A solid;
+        border-radius: 10px;
+    }
+    .share_btn_see_all:hover{
+        background-color: #00798A;
+        color: white;
+    }
+    
+    .See_all_event_section{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 1rem;
+        justify-content: space-between;
+    }
+    
+    .see_all_events_location{
+        width: 100%;
+        height: fit-content;
+        margin-top: 0.75rem;
+    }
+    
+    .event_render_section{
+        height: fit-content;
+        width: 100%;
+    }
+    
+    .see_all_events_render{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 2.5rem;
+    }
+    
+    .map_sec{
+        background-color: white;
+        height: 9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 0.75rem;
+        background-image: url('../images/blur-map.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .browsmap_btn{
+        padding: 0.25rem 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: #00798A;
+        border: 2px #00798A solid;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .browsmap_btn:hover{
+        background-color: #eff5f6;
+    }
 }
