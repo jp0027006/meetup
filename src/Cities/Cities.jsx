@@ -56,7 +56,6 @@ function Cities() {
             <img
               src="https://secure.meetupstatic.com/next/images/indexPage/how-it-works/search.svg?w=48"
               alt="search"
-              className="img-fluid"
             />
           </div>
           <div>
@@ -74,7 +73,6 @@ function Cities() {
             <img
               src="https://secure.meetupstatic.com/next/images/indexPage/how-it-works/plus.svg?w=48"
               alt="start group"
-              className="img-fluid"
             />
           </div>
           <div>
