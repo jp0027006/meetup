@@ -1,0 +1,14 @@
+.next_btn{
+    background-color: #E32359;
+    color: white;
+    font-weight: 500;   
+    padding: 1vh 6rem;
+    border: 0px solid;
+    border-radius: 10px;
+}
+.next_btn:hover{
+    background-color: #b91c48;
+}
+.next_btn:active{
+    background-color: #8e1638;
+}

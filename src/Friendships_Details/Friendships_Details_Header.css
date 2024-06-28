@@ -1,0 +1,80 @@
+.Friendships_Details_Header {
+    background-color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 2.5rem;
+  }
+  
+  .logo img {
+    height: 3rem;
+  }
+  .logotxt{
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .search {
+    display: flex;
+    margin-right: 2rem;
+    align-items: center;
+  }
+
+  .search button {
+    background-color: transparent;
+    border: none;
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+  }
+  .FDH_options{
+    margin-right: 2rem;
+    color: black;
+    font-weight: 500;
+  }
+
+  .cta {
+    background: rgba(151, 202, 209, 0.3);
+    color: #00455d;
+    padding: 0.4rem 1.25rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .search {
+      display: none;
+    }
+  
+    .cta {
+      display: none;
+    }
+  }
