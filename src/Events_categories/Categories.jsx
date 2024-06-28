@@ -6,7 +6,7 @@ function Categories() {
     <div className="Categories mt-5">
       <h2>Explore top categories</h2>
       <div className="Categories-main">
-      <Link to={`/outdoors-and-travel/`} className="category_sec">
+        <Link to={`/outdoors-and-travel/`} className="category_sec">
           <img
             src="https://secure.meetupstatic.com/next/images/indexPage/categories/travel_and_outdoor.svg?w=32"
             alt=""

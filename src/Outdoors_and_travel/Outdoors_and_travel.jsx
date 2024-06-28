@@ -7,11 +7,13 @@ import bicycling from "../images/Outdoors_and_travel/bicycling.webp";
 import camping from "../images/Outdoors_and_travel/camping.webp";
 import i_travel from "../images/Outdoors_and_travel/international-travel.webp";
 import kayaking from "../images/Outdoors_and_travel/kayaking.webp";
+import NavBar from "../NavBar/NavBar";
 
 function Outdoors_and_travel() {
   return (
     <div className="Outdoors_and_travel">
       <NavBar_LS />
+      <NavBar />
 
       <div className="Outdoors_and_travel_sec mt-5">
         <h1 className="heading">Outdoor Activities Groups and Events</h1>
