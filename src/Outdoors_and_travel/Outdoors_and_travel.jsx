@@ -13,7 +13,6 @@ function Outdoors_and_travel() {
   return (
     <div className="Outdoors_and_travel">
       <NavBar_LS />
-      <NavBar />
 
       <div className="Outdoors_and_travel_sec mt-5">
         <h1 className="heading">Outdoor Activities Groups and Events</h1>
