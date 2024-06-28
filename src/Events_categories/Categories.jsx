@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Categories.css";
 
 function Categories() {
@@ -5,13 +6,13 @@ function Categories() {
     <div className="Categories mt-5">
       <h2>Explore top categories</h2>
       <div className="Categories-main">
-        <a className="category_sec" href="#">
+        <Link to={`/outdoors-and-travel/`} className="category_sec">
           <img
             src="https://secure.meetupstatic.com/next/images/indexPage/categories/travel_and_outdoor.svg?w=32"
             alt=""
           />
           <p>Travel and Outdoor</p>
-        </a>
+        </Link>
         <a className="category_sec" href="#">
           <img
             src="https://secure.meetupstatic.com/next/images/indexPage/categories/social_activities.svg?w=32"
