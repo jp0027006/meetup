@@ -1,0 +1,99 @@
+.Outdoors_and_travel_sec {
+  margin-left: 25rem;
+  margin-right: 25rem;
+  text-align: center;
+}
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.join_grp {
+  border-radius: 8px;
+  height: 2.8rem;
+  font-weight: 500;
+  width: 14rem;
+  margin-top: 0.5rem;
+  color: #fff;
+  background-color: #e32359;
+  border-color: transparent;
+}
+.join_grp:hover {
+  background-color: #e63a6a;
+}
+.event_title {
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(0 121 138 / var(--tw-text-opacity));
+  text-align: start;
+}
+.event_title:hover {
+  text-decoration: underline;
+}
+.min-h-650 {
+  min-height: 650px;
+}
+.custom-video {
+  max-width: 375px;
+  margin: 0 auto;
+}
+.video-container {
+  margin: 0 -1.6rem;
+}
+.img-fluid {
+  padding-left: 9.8rem;
+  padding-right: 10rem;
+  margin-top: 1.375rem;
+}
+.left_sec {
+  color: black;
+  flex: 0 0 auto;
+  width: 40%;
+  padding-right: 4%;
+  margin-top: 34%;
+  text-align: end;
+}
+.right_sec {
+  color: black;
+  flex: 0 0 auto;
+  width: 40%;
+  padding-left: 4%;
+  margin-top: 34%;
+}
+.join_grp2 {
+  border-radius: 8px;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  color: #fff;
+  padding: 15px 65px;
+  border-radius: 8px;
+  background-color: #00798a;
+  border: 2px solid #00798a;
+  border-color: transparent;
+}
+.join_grp2:hover {
+  color: #00798a;
+  background-color: #fff;
+  text-decoration: underline;
+  border-color: #008396;
+}
+.join_grp3 {
+  border-radius: 8px;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  color: #00798a;
+  padding: 15px 65px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 2px solid #00798a;
+  border-color: #008396;
+}
+.join_grp3:hover {
+  background-color: #00798a;
+  color: #fff;
+  text-decoration: underline;
+  border-color: #008396;
+}
+.heading2{
+  font-size: 2.1rem;
+  font-weight: 700;
+}
