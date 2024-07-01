@@ -5,10 +5,103 @@
     padding: 1vh 6rem;
     border: 0px solid;
     border-radius: 10px;
+    margin-top: 2rem;
 }
 .next_btn:hover{
     background-color: #b91c48;
 }
 .next_btn:active{
     background-color: #8e1638;
+}
+.Parent_line{
+    height: 0.75rem;
+    width: 100%;
+    background-color: #E6E6E5;
+}
+.Child_Line{
+    height: 0.75rem;
+    background-color: #019AAD;
+}
+.steps_number{
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 0.75rem;
+    color: #707070;
+}
+.Step1 .Child_Line{
+    width: 16%;
+}
+.Step2 .Child_Line{
+    width: 33%;
+}
+.Step3 .Child_Line{
+    width: 50%;
+}
+.Step4 .Child_Line{
+    width: 67%;
+}
+.Step5 .Child_Line{
+    width: 84%;
+}
+.Step6 .Child_Line{
+    width: 100%;
+}
+
+.content_container{
+    height: fit-content;
+    margin: 0 auto;
+    width: 70rem;
+    display: flex;
+    margin-top: 3.5rem;
+}
+.content_container_part1{
+    width: 43rem;
+}
+.parent_Search_step1{
+    margin-top: 1rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    display: flex;
+    border: 0.5px #E6E6E5 solid;
+    width: 100%;
+}
+.parent_Search_step1_icon{
+    width: 3rem;
+    height: 2.5rem;
+    padding: 0.55rem;
+    margin-top: -0.25rem;
+}
+.parent_Search_step1_field{
+    width: 100%;
+    border: 0px solid;
+    background-color: transparent;
+}
+.parent_Search_step1_field::placeholder{
+    color: black;
+    font-weight: 600;
+}
+.parent_Search_step1_field:focus{
+    outline: none;
+}
+.parent_Search_step1_field:focus > .parent_Search_step1 {
+    border: 1px #019AAD solid;
+}
+
+.parent_Search_step1_icon img{
+    margin: 0 auto;
+}
+
+.content_container_part2{
+    width: 24rem;
+    margin-left: 3rem;
+}
+.tip_sec{
+    background-color: #F6F7F8;
+    border-radius: 10px;
+    padding: 0.75rem 1.25rem;
+}
+.tip_sec_info{
+    margin-top: 0.5rem;
+    font-weight: 450;
+    font-size: 17px;
 }
