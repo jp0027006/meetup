@@ -11,8 +11,12 @@ import kayaking from "../images/Outdoors_and_travel/kayaking.webp";
 function Outdoors_and_travel() {
   return (
     <div className="Outdoors_and_travel">
-      <NavBar_LS />
-
+      <div className="navbar_LS">
+        <NavBar_LS />        
+      </div>
+      <div className="navbar_SS">
+        <NavBar_SS />        
+      </div>
       <div className="Outdoors_and_travel_sec mt-5">
         <h1 className="heading">Outdoor Activities Groups and Events</h1>
         <p className="ms-4 me-4" style={{ color: "black" }}>

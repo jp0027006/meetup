@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import AppData from '../AppData.json'
 import './Friendships_Details.css'
 import Friendships_Details_Footer from './Friendships_Details_Footer'
+import Friendships_Details_Header from "./Friendships_Details_Header";
 
 const Friendships_Details = () => {
 
@@ -11,6 +12,9 @@ const Friendships_Details = () => {
 
     return(
         <div className="Friendships_Details">
+            <div className="FDF">
+                <Friendships_Details_Header />
+            </div>
             <div>{friendships.Friends_title}</div>
             <div className="FDF">
                 <Friendships_Details_Footer />

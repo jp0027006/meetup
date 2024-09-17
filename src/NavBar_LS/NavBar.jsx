@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavBar.css";
+import { Link } from 'react-router-dom';
 import search_icon from "../images/search_icon.png";
 import logo from "../images/meetup_logo_mobile.png";
 
@@ -56,6 +57,9 @@ function NavBar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+                <Link to={`/start-new-group/step1`} className="btn btn-link launguage_btn me-3 " style={{color: '#00798A'}} > Start your group </Link>
+              </li>
               <li className="nav-item">
                 <button
                   className="btn btn-link launguage_btn me-3"
